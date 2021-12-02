@@ -31,15 +31,15 @@ class PromoSection extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row text-secondary">
               <div className="col-lg-3 col-sm-6 mb-lg-0">
                 <div className="card single-promo-card single-promo-hover">
                   <div className="card-body">
                     <div className="pb-2">
-                      <span className="ti-credit-card icon-md color-secondary"></span>
+                      <span className="ti-credit-card icon-md"></span>
                     </div>
                     <div className="pt-2 pb-3">
-                      <h5>Modular</h5>
+                      <h5 className="text-secondary">Modular</h5>
                       <p className="text-muted mb-0">
                         All components are built to be used in any combination.
                       </p>
@@ -51,10 +51,10 @@ class PromoSection extends React.Component {
                 <div className="card single-promo-card single-promo-hover mb-lg-0">
                   <div className="card-body">
                     <div className="pb-2">
-                      <span className="ti-control-record icon-md color-secondary"></span>
+                      <span className="ti-control-record icon-md"></span>
                     </div>
                     <div className="pt-2 pb-3">
-                      <h5>Responsive</h5>
+                      <h5 className="text-secondary">Responsive</h5>
                       <p className="text-muted mb-0">
                         Quick is optimized to work for most devices.
                       </p>
@@ -66,10 +66,10 @@ class PromoSection extends React.Component {
                 <div className="card single-promo-card single-promo-hover mb-lg-0">
                   <div className="card-body">
                     <div className="pb-2">
-                      <span className="ti-vector icon-md color-secondary"></span>
+                      <span className="ti-vector icon-md"></span>
                     </div>
                     <div className="pt-2 pb-3">
-                      <h5>Scalable</h5>
+                      <h5 className="text-secondary">Scalable</h5>
                       <p className="text-muted mb-0">
                         Remain consistent while developing new features.
                       </p>
@@ -81,10 +81,10 @@ class PromoSection extends React.Component {
                 <div className="card single-promo-card single-promo-hover mb-lg-0">
                   <div className="card-body">
                     <div className="pb-2">
-                      <span className="ti-receipt icon-md color-secondary"></span>
+                      <span className="ti-receipt icon-md"></span>
                     </div>
                     <div className="pt-2 pb-3">
-                      <h5>Customizable</h5>
+                      <h5 className="text-secondary">Customizable</h5>
                       <p className="text-muted mb-0">
                         Change a few variables and the whole theme adapts.
                       </p>
