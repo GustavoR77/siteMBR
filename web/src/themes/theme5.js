@@ -24,13 +24,13 @@ class Theme extends Component {
           <PromoSection removeTopMargin={true} />
           <AboutSection />
           <VideoSection showDownloadBtn={true} />
-          <FeatureSection bgColor="gray" />
+          <FeatureSection bgColor="blue" />
           <PricingSection hideFaq={true} />
           <Screenshots />
           <TeamMember />
-          <Testimonial bgColor="gray" />
-          <ContactSection bgColor="white" />
-          <TrustedCompany bgColor="gray" />
+          <Testimonial bgColor="blue" />
+          <ContactSection bgColor="blue" />
+          <TrustedCompany bgColor="blue" />
         </div>
         <FooterSection noSubscription={true} />
       </React.Fragment>

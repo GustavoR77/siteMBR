@@ -128,13 +128,12 @@ class Footer extends React.Component {
             </div>
           </div>
 
-          <div className="footer-bottom gray-light-bg pt-4 pb-4">
+          <div className="footer-bottom blue-gray2-bg pt-4 pb-4">
             <div className="container">
               <div className="row text-center justify-content-center">
                 <div className="col-md-6 col-lg-5">
                   <p className="copyright-text pb-0 mb-0">
-                    Copyrights © 2019. All rights reserved by 
-                    <a href="/#"> ThemeTags</a>
+                    Copyrights © 2019.
                   </p>
                 </div>
               </div>

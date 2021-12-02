@@ -24,7 +24,7 @@ export default class Screenshots extends React.Component {
       <React.Fragment>
         <section
           id="screenshots"
-          className="screenshots-section ptb-100 gray-light-bg"
+          className="screenshots-section ptb-100 blue-gray2-bg"
         >
           <div className="container">
             <div className="row justify-content-center">

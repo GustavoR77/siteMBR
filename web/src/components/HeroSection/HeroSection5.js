@@ -29,13 +29,13 @@ class HeroSection extends React.Component {
             <div className="background-video-overly ptb-100">
               <div
                 className="player"
-                data-property="{videoURL:'https://www.youtube.com/watch?v=JfVOs4VSpmA',containment:'.video-section-wrap', quality:'highres', autoPlay:true, showControls: false, startAt:0, mute:true, opacity: 1}"
+                data-property="{videoURL:'https://youtu.be/gXVVH6jaT_g',containment:'.video-section-wrap', quality:'highres', autoPlay:true, showControls: false, startAt:0, mute:true, opacity: 1}"
               ></div>
               <div className="container">
                 <div className="row align-items-center justify-content-center">
                   <div className="col-md-8 col-lg-7">
                     <div className="hero-content-left text-white text-center mt-5 ptb-100">
-                      <h1 className="text-white">Build anything you want</h1>
+                      <h1 className="text-white">MBR</h1>
                       <p className="lead">
                         We offer Digital Marketing / SEO in Kalawad Road Rajkot,
                         Gujarat. Find here details about our company.{" "}

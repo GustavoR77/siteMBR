@@ -97,7 +97,7 @@ class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <section id="contact" className={"contact-us ptb-100 " + (this.props.bgColor && this.props.bgColor === 'white' ? '' : 'gray-light-bg')}>
+        <section id="contact" className={"contact-us ptb-100 " + (this.props.bgColor && this.props.bgColor === 'blue-gray2-bg' ? '' : 'blue-gray2-bg')}>
           <div className="container">
             <div className="row">
               <div className="col-md-5">
