@@ -114,7 +114,7 @@ class HeroSection extends React.Component {
                         <label className="pb-1">Email Address</label>
                         <div className="input-group input-group-merge">
                           <div className="input-icon">
-                            <span className="ti-email color-primary"></span>
+                            <span className="ti-email light-blue"></span>
                           </div>
                           <input
                             value={this.state.email}
@@ -145,7 +145,7 @@ class HeroSection extends React.Component {
                         </div>
                         <div className="input-group input-group-merge">
                           <div className="input-icon">
-                            <span className="ti-lock color-primary"></span>
+                            <span className="ti-lock light-blue"></span>
                           </div>
                           <input
                             value={this.state.password}
@@ -161,7 +161,7 @@ class HeroSection extends React.Component {
                         </div>
                       </div>
                       <button
-                        className="btn btn-lg btn-block solid-btn border-radius mt-4 mb-3"
+                        className="btn btn-lg btn-block login-btn border-radius mt-4 mb-3"
                         id="signIn"
                         disabled={this.state.disableBtn}
                         onClick={() => {

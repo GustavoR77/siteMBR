@@ -92,7 +92,7 @@ class Header extends React.Component {
                   <li className="nav-item dropdown">
                       <a className="nav-link page-scroll dropdown-toggle" href="/#" id="navbarDropdownPage" role="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Pages <span className="custom-nav-badge badge badge-danger badge-pill">New</span>
+                          Pages <span className="custom-nav-badge badge badge-primary badge-pill">New</span>
                       </a>
                       <div className="dropdown-menu submenu" aria-labelledby="navbarDropdownPage">
                           <a className="dropdown-item" href="login1">Login Page 1</a>
@@ -114,7 +114,7 @@ class Header extends React.Component {
                   <li className="nav-item dropdown">
                         <a className="nav-link page-scroll dropdown-toggle" href="/#" id="navbarBlogPage" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog <span className="custom-nav-badge badge badge-danger badge-pill">New</span>
+                            Blog <span className="custom-nav-badge badge badge-primary badge-pill">New</span>
                         </a>
 
                         <div className="dropdown-menu submenu" aria-labelledby="navbarBlogPage">

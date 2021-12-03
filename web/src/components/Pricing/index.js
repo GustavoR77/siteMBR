@@ -84,7 +84,7 @@ export default class Pricing extends React.Component {
                             className={
                               "btn mb-3 " +
                               (_package.isFeatured
-                                ? "solid-btn"
+                                ? "outline-btn"
                                 : "outline-btn")
                             }
                             target="_blank"
@@ -100,7 +100,7 @@ export default class Pricing extends React.Component {
               <div className="mt-5 text-center">
                 <p className="mb-2">
                   If you need custom services or Need more?{" "}
-                  <a href="/#" className="color-secondary">
+                  <a href="/#" className="light-blue">
                     Contact us
                   </a>
                 </p>
