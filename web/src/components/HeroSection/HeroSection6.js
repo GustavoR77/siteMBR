@@ -107,7 +107,7 @@ class HeroSection extends React.Component {
 
                   <div className="video-promo-content mt-4 d-flex align-items-center">
                     <a
-                      href="https://www.youtube.com/watch?v=9No-FiEInLA"
+                      href="https://youtu.be/zbVuoVLZd6U"
                       className="popup-youtube video-play-icon"
                     >
                       <span className="ti-control-play"></span>{" "}

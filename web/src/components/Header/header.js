@@ -43,7 +43,7 @@ class Header extends React.Component {
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
-                      Home
+                      Início
                     </a>
                     <div
                       className="dropdown-menu submenu"
@@ -71,28 +71,18 @@ class Header extends React.Component {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link page-scroll" href="#about">
-                      About
+                      Sobre
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#features">
-                      Features
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#pricing">
-                      Pricing
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#screenshots">
-                      Screenshots
+                    <a className="nav-link page-scroll" href="#about">
+                      Jobs
                     </a>
                   </li>
                   <li className="nav-item dropdown">
                       <a className="nav-link page-scroll dropdown-toggle" href="/#" id="navbarDropdownPage" role="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Pages <span className="custom-nav-badge badge badge-primary badge-pill">New</span>
+                          Páginas <span className="custom-nav-badge badge badge-primary badge-pill">New</span>
                       </a>
                       <div className="dropdown-menu submenu" aria-labelledby="navbarDropdownPage">
                           <a className="dropdown-item" href="login1">Login Page 1</a>
@@ -111,26 +101,9 @@ class Header extends React.Component {
                           <a className="dropdown-item" href="singleTeam">Team Single</a>
                       </div>
                   </li>
-                  <li className="nav-item dropdown">
-                        <a className="nav-link page-scroll dropdown-toggle" href="/#" id="navbarBlogPage" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog <span className="custom-nav-badge badge badge-primary badge-pill">New</span>
-                        </a>
-
-                        <div className="dropdown-menu submenu" aria-labelledby="navbarBlogPage">
-                            <a className="dropdown-item" href="blog">Blog Grid</a>
-                            <a className="dropdown-item" href="blogLeft">Blog Left Sidebar</a>
-                            <a className="dropdown-item" href="blogRight">Details Right Sidebar</a>
-                        </div>
-                    </li>
-                  <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#team">
-                      Team
-                    </a>
-                  </li>
                   <li className="nav-item">
                     <a className="nav-link page-scroll" href="#contact">
-                      Contact
+                      Contato
                     </a>
                   </li>
                 </ul>

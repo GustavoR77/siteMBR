@@ -31,7 +31,7 @@ class Video extends React.Component {
               <div className="col-md-6">
                 <div className="video-promo-content mt-4 text-center">
                   <a
-                    href="https://www.youtube.com/watch?v=9No-FiEInLA"
+                    href="https://player.vimeo.com/video/299432146"
                     className="popup-youtube video-play-icon d-inline-block"
                   >
                     <span className="ti-control-play"></span>{" "}

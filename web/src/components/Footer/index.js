@@ -95,17 +95,24 @@ class Footer extends React.Component {
                     <ul className="list-unstyled support-list">
                       <li className="mb-2 d-flex align-items-center">
                         <span className="ti-location-pin mr-2"></span>
-                        121 King Melbourne
-                        <br />
-                        Australia 3000
+                        Tietê-SP
                       </li>
                       <li className="mb-2 d-flex align-items-center">
-                        <span className="ti-mobile mr-2"></span>{" "}
-                        <a href="tel:+61283766284"> +61 2 8376 6284</a>
+                        {/* <span className="fab fa-phone mr-2 fa-lg"></span>{" "} */}
+                        <i class="fas fa-phone-square mr-2 fa-lg"></i>
+                        <a href="tel:+5515996463919"> &nbsp;&nbsp;+55 15 3282-3919</a>
                       </li>
                       <li className="mb-2 d-flex align-items-center">
-                        <span className="ti-email mr-2"></span>
+                        <i class="fab fa-whatsapp mr-2 fa-lg"></i>
+                        <a href="https://wa.me/5515996463919" target="_blank"> +55 15 99646-3919</a>
+                      </li>
+                      <li className="mb-2 d-flex align-items-center">
+                        <i class="fas fa-mail-bulk mr-2"></i>
                         <a href="mailto:mail@example.com"> mail@example.com</a>
+                      </li>
+                      <li className="mb-2 d-flex align-items-center">
+                        <i class="fab fa-whatsapp mr-2 fa-lg"></i>
+                        <a href="https://wa.me/5515996463919" target="_blank"> +55 15 99646-3919</a>
                       </li>
                       <li className="mb-2 d-flex align-items-center">
                         <span className="ti-world mr-2"></span>
@@ -117,11 +124,11 @@ class Footer extends React.Component {
                 <div className="col-lg-3">
                   <div className="footer-nav-wrap text-white">
                     <h5 className="mb-3 text-white">Location</h5>
-                    <img
-                      src="img/map.png"
-                      alt="location map"
-                      className="img-fluid"
-                    />
+                    <div className="embed-responsive embed-responsive-4by3">
+                      <iframe className="embed-responsive-item" 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.8363953627027!2d-47.71841938498818!3d-23.103084150713098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c612798f987d17%3A0x8af1759a64c5940f!2sMBR%20-%20Tecnologia%20Educacional!5e0!3m2!1sen!2sbr!4v1638791194472!5m2!1sen!2sbr" 
+                      allowfullscreen="" loading="lazy" />
+                    </div>
                   </div>
                 </div>
               </div>
