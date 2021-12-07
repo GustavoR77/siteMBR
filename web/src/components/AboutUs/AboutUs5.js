@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 class About extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = {};
+    super(props)
+    this.state = {}
   }
 
   componentDidMount() {
@@ -20,58 +20,64 @@ class About extends React.Component {
             <div className="row align-items-center justify-content-between">
               <div className="col-md-6">
                 <div className="about-content-left section-heading">
-                  <h2>
-                    We help drive your business <span>forward faster</span>
-                  </h2>
+                  <h2>Sobre a empresa {/* <span>forward faster</span> */}</h2>
                   <p>
-                    Proactively syndicate open-source e-markets after low-risk
-                    high-yield synergy. Professionally simplify visionary
-                    technology before team driven sources.{" "}
+                    Nós da MBR acreditamos na educação interativa e lúdica. Para
+                    isso, produzimos softwares fáceis de usar, atraentes e
+                    divertidos há 24 anos. Nosso dia-a-dia é criar soluções para
+                    uso da tecnologia em aplicações didáticas para todas as
+                    idades mesclando tecnologia, design e arte para tornar o
+                    aprendizado uma experiência prazerosa ao estudante, poderosa
+                    e flexível para o educador e ainda permitir total controle e
+                    proteção ao franqueador de sua propriedade intelectual.{' '}
                   </p>
 
                   <div className="single-feature mb-4">
                     <div className="d-flex align-items-center mb-2">
-                      <span className="ti-vector rounded mr-3 icon icon-color-1"></span>
-                      <h5 className="mb-0">Easy to use</h5>
+                      {/* <span className="ti-vector rounded mr-3 icon icon-color-1"></span> */}
+                      <h5 className="mb-0">Experiência</h5>
                     </div>
                     <p>
-                      Synergistically deliver next-generation relationships
-                      whereas bleeding-edge resources. Continually pontificate
-                      stand-alone benefits whereas.
+                      Com 20 anos de experiência na criação de materiais
+                      digitais, jogos e outras aplicações para o universo FISK,
+                      PBF, Wizard, Skill e outras, a MBR é a melhor escolha para
+                      criação de projetos tecnológico-didáticos, pois temos
+                      profundo conhecimento das dores e anseios e da exigência
+                      de seus clientes/alunos e profissionais de pedagogia e
+                      tecnologia.
                     </p>
                   </div>
                   <div className="single-feature mb-4">
                     <div className="d-flex align-items-center mb-2">
-                      <span className="ti-dashboard rounded mr-3 icon icon-color-2"></span>
-                      <h5 className="mb-0">Increase conversion</h5>
+                      <h5 className="mb-0">Objetivos</h5>
                     </div>
                     <p>
-                      Phosfluorescently empower compelling intellectual capital
-                      and revolutionary web services. Compellingly develop
-                      cross-media.
-                    </p>
-                  </div>
-
-                  <div className="single-feature mb-4">
-                    <div className="d-flex align-items-center mb-2">
-                      <span className="ti-alarm-clock rounded mr-3 icon icon-color-3"></span>
-                      <h5 className="mb-0">24/7 Support</h5>
-                    </div>
-                    <p>
-                      Phosfluorescently matrix enterprise-wide metrics vis-a-vis
-                      extensive imperatives. Energistically empower
-                      best-of-breed human
+                      Mantermo-nos atualizados tecnologicamente é um exercício
+                      diário para a MBR. Fomos uma das primeiras empresas do
+                      Brasil a utilizar a plataforma de desenvolvimento Unity e
+                      nossos profissionais estão sempre pesquisando novas
+                      técnicas e tecnologias. Com equipe de desenvolvimento
+                      PRÓPRIA, localizada no interior de São Paulo a cerca de
+                      150 km do centro da Capital, a MBR tem um excelente
+                      custo-benefício para desenvolvimento de softwares. Pelo
+                      fato de as principais ferramentas empregadas na didática
+                      das escolas também terem sido desenvolvidas pela MBR,
+                      podemos garantir que nosso projeto terá a melhor
+                      aderência, melhor transparência, melhor aceitação pelos
+                      alunos e professores e melhor conectividade com todo
+                      sistema tecnológico de ensino do Brasil.
                     </p>
                   </div>
                   <a href="/#" className="btn solid-btn mt-2">
-                    View additional 10+ features
+                    Saiba mais
                   </a>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="about-content-right">
                   <img
-                    src="img/about-img.png"
+            
+                    src="img/front-image.jpg"
                     alt="about us"
                     className="img-fluid"
                   />
@@ -81,8 +87,8 @@ class About extends React.Component {
           </div>
         </section>
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default About;
+export default About

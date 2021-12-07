@@ -143,7 +143,7 @@ module.exports = {
     ]
   },
   contact: {
-    title: "Contact with us",
+    title: "Trabalhe conosco",
     description:
       "It's very easy to get in touch with us. Just use the contact form or pay us a visit for a coffee at the office. Dynamically innovate competitive technology after an expanded array of leadership.",
 
@@ -167,7 +167,7 @@ module.exports = {
     "img/client-5-gray.png"
   ],
   trustedCompanyAboutUs: {
-    title: "Trusted by companies",
+    title: "Nossos clientes",
     description: "Rapidiously morph transparent internal or \"organic\" sources whereas resource sucking e-business. Conveniently innovate compelling internal.",
     companies: [
       "img/client-5-color.png",

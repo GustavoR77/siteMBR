@@ -1,44 +1,44 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import { submitContact } from "../../actions/index";
-import _data from "../../data";
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { submitContact } from '../../actions/index'
+import _data from '../../data'
 
 class Contact extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
-      name: "",
-      email: "",
-      phone: "",
-      company: "",
-      message: "",
+      name: '',
+      email: '',
+      phone: '',
+      company: '',
+      message: '',
       disableContactBtn: false,
-      contactBtnText: "Send Message",
-      contact: {}
-    };
+      contactBtnText: 'Send Message',
+      contact: {},
+    }
 
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   /**
    * When we click on Send button, changeBtnText function will help to change text
    * @param contactBtnText
    */
-  changeBtnText = contactBtnText => {
-    this.setState({ contactBtnText });
-  };
+  changeBtnText = (contactBtnText) => {
+    this.setState({ contactBtnText })
+  }
 
   /**
    * Get all form data and set to the state
    * @param contactBtnText
    */
   handleFormValueChange(inputName, event) {
-    let stateValue = {};
+    let stateValue = {}
     stateValue[inputName] =
-      event.target.type === "checkbox"
+      event.target.type === 'checkbox'
         ? event.target.checked
-        : event.target.value;
-    this.setState(stateValue);
+        : event.target.value
+    this.setState(stateValue)
   }
 
   /**
@@ -46,43 +46,43 @@ class Contact extends Component {
    * @param contactBtnText
    */
   handleSubmit(event) {
-    event.preventDefault();
+    event.preventDefault()
 
     // disable the button
-    this.setState({ disableContactBtn: true });
+    this.setState({ disableContactBtn: true })
 
     // get action
-    const contactAction = submitContact(this.state);
+    const contactAction = submitContact(this.state)
 
     // Dispatch the contact from data
-    this.props.dispatch(contactAction);
+    this.props.dispatch(contactAction)
 
     // added delay to change button text to previous
     setTimeout(
-      function() {
+      function () {
         // enable the button
-        this.setState({ disableContactBtn: false });
+        this.setState({ disableContactBtn: false })
 
         // change to button name
-        this.changeBtnText("Send Message");
+        this.changeBtnText('Send Message')
 
         // get action again to update state
-        const contactAction = submitContact(this.state);
+        const contactAction = submitContact(this.state)
 
         // Dispatch the contact from data
-        this.props.dispatch(contactAction);
+        this.props.dispatch(contactAction)
 
         // clear form data
         this.setState({
-          name: "",
-          email: "",
-          phone: "",
-          company: "",
-          message: ""
-        });
+          name: '',
+          email: '',
+          phone: '',
+          company: '',
+          message: '',
+        })
       }.bind(this),
-      3000
-    );
+      3000,
+    )
   }
 
   componentDidMount() {
@@ -90,14 +90,22 @@ class Contact extends Component {
      * Your ajax will goes here to get data then call setState
      */
     this.setState({
-      contact: _data.contact
-    });
+      contact: _data.contact,
+    })
   }
 
   render() {
     return (
       <React.Fragment>
-        <section id="contact" className={"contact-us ptb-100 " + (this.props.bgColor && this.props.bgColor === 'blue-gray2-bg' ? '' : 'blue-gray2-bg')}>
+        <section
+          id="contact"
+          className={
+            'contact-us ptb-100 ' +
+            (this.props.bgColor && this.props.bgColor === 'blue-gray2-bg'
+              ? ''
+              : 'blue-gray2-bg')
+          }
+        >
           <div className="container">
             <div className="row">
               <div className="col-md-5">
@@ -116,7 +124,7 @@ class Contact extends Component {
                     </li>
                     <li>
                       <span>
-                        Email :{" "}
+                        Email :{' '}
                         <a href="mailto:hello@yourdomain.com">
                           {this.state.contact.email}
                         </a>
@@ -138,7 +146,9 @@ class Contact extends Component {
                       <div className="form-group">
                         <input
                           value={this.state.name}
-                          onChange={e => this.handleFormValueChange("name", e)}
+                          onChange={(e) =>
+                            this.handleFormValueChange('name', e)
+                          }
                           type="text"
                           className="form-control"
                           name="name"
@@ -151,7 +161,9 @@ class Contact extends Component {
                       <div className="form-group">
                         <input
                           value={this.state.email}
-                          onChange={e => this.handleFormValueChange("email", e)}
+                          onChange={(e) =>
+                            this.handleFormValueChange('email', e)
+                          }
                           type="email"
                           className="form-control"
                           name="email"
@@ -166,7 +178,9 @@ class Contact extends Component {
                       <div className="form-group">
                         <input
                           value={this.state.phone}
-                          onChange={e => this.handleFormValueChange("phone", e)}
+                          onChange={(e) =>
+                            this.handleFormValueChange('phone', e)
+                          }
                           type="text"
                           name="phone"
                           className="form-control"
@@ -179,8 +193,8 @@ class Contact extends Component {
                       <div className="form-group">
                         <input
                           value={this.state.company}
-                          onChange={e =>
-                            this.handleFormValueChange("company", e)
+                          onChange={(e) =>
+                            this.handleFormValueChange('company', e)
                           }
                           type="text"
                           name="company"
@@ -196,8 +210,8 @@ class Contact extends Component {
                     <div className="col-12">
                       <div className="form-group">
                         <textarea
-                          onChange={e =>
-                            this.handleFormValueChange("message", e)
+                          onChange={(e) =>
+                            this.handleFormValueChange('message', e)
                           }
                           value={this.state.message}
                           name="message"
@@ -218,7 +232,7 @@ class Contact extends Component {
                         id="btnContactUs"
                         disabled={this.state.disableContactBtn}
                         onClick={() => {
-                          this.changeBtnText("Sending...");
+                          this.changeBtnText('Sending...')
                         }}
                       >
                         {this.state.contactBtnText}
@@ -232,10 +246,10 @@ class Contact extends Component {
           </div>
         </section>
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default connect(state => ({
-  state
-}))(Contact);
+export default connect((state) => ({
+  state,
+}))(Contact)

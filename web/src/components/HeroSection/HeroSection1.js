@@ -128,7 +128,7 @@ class HeroSection extends React.Component {
                     >
                       <span className="ti-control-play"></span>
                     </a>{" "}
-                    Watch Video Overview
+                    Confira nosso vídeo
                   </div>
                 </div>
               </div>

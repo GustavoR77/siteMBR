@@ -36,7 +36,7 @@ class Video extends React.Component {
                   >
                     <span className="ti-control-play"></span>{" "}
                   </a>
-                  <h5 className="mt-4 text-white">Watch video overview</h5>
+                  <h5 className="mt-4 text-white">Confira nosso vídeo</h5>
                   {this.props.showDownloadBtn &&
                     this.props.showDownloadBtn === true && (
                       <div className="download-btn mt-5">
