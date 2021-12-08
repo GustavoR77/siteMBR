@@ -26,7 +26,7 @@ class TeamMember extends React.Component {
             <div className="row justify-content-center">
               <div className="col-lg-7 col-md-8">
                 <div className="section-heading text-center mb-5">
-                  <h2>Our team members</h2>
+                  <h2>Nosso time</h2>
                   <p className="lead">
                     Following reasons show advantages of adding AppCo to your
                     lead pages, demos and checkouts

@@ -157,7 +157,7 @@ module.exports = {
     "img/client-6-color.png",
     "img/client-3-color.png",
     "img/client-4-color.png",
-    "img/client-5-color.png"
+    "img/client-5-color.png",
   ],
   trustedCompanyGray: [
     "img/client-1-gray.png",
@@ -170,16 +170,22 @@ module.exports = {
     title: "Nossos clientes",
     description: "Rapidiously morph transparent internal or \"organic\" sources whereas resource sucking e-business. Conveniently innovate compelling internal.",
     companies: [
-      "img/client-5-color.png",
-      "img/client-1-color.png",
-      "img/client-6-color.png",
-      "img/client-3-color.png",
-      "img/client-4-color.png",
-      "img/client-5-color.png",
-      "img/client-7-color.png",
-      "img/client-2-color.png",
-      "img/client-1-color.png",
-      "img/client-3-color.png"
+      "img/fisk.png",
+      "img/fisk.png",
+      "img/fisk.png",
+      "img/fisk.png",
+      "img/fisk.png",
+    ]
+  },
+  teamMembersDesigners: {
+    title: "Nosso time",
+    description: "Rapidiously morph transparent internal or \"organic\" sources whereas resource sucking e-business. Conveniently innovate compelling internal.",
+    members: [
+      "img/client-2.jpg",
+      "img/client-2.jpg",
+      "img/client-2.jpg",
+      "img/client-2.jpg",
+      "img/client-2.jpg",
     ]
   },
   teamMember: {
@@ -203,9 +209,10 @@ module.exports = {
         name: "Jeremy Jere",
         designation: "Senior Designer",
         image: "img/team-3.jpg"
-      },
-    ]
+      }
+    ],
   },
+  
   video: {
     link: "https://www.youtube.com/watch?v=9No-FiEInLA"
   }
