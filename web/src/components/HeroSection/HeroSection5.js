@@ -19,10 +19,10 @@ class HeroSection extends React.Component {
         <section
           className="hero-section background-img"
           style={{
-            backgroundImage: "url('img/hero-bg-2.jpg')",
+            backgroundImage: "url('img/Logo_MBR.png')",
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
-            backgroundSize: 'cover',
+            backgroundSize: '100% 100%',
           }}
         >
           <div className="video-section-wrap">
