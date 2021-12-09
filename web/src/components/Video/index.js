@@ -20,10 +20,10 @@ class Video extends React.Component {
           id="download"
           className="video-promo ptb-100 background-img"
           style={{
-            backgroundImage: "url('img/video-bg.jpg')",
+            backgroundImage: "url('img/Logo_MBR.png')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
-            backgroundSize: "cover"
+            backgroundSize: "80% 80%"
           }}
         >
           <div className="container">
