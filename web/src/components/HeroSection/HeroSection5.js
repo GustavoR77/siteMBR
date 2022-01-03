@@ -57,40 +57,42 @@ class HeroSection extends React.Component {
                       <ul className="list-inline justify-content-between">
                         <li className="list-inline-item">
                           <img
-                            src="img/fisk.png"
-                            width="85"
+                            src="img/fisk2.png"
                             alt="FISK"
                             className="img-fluid"
                           />
                         </li>
                         <li className="list-inline-item">
                           <img
-                               src="img/fisk.png"
-                               width="85"
-                               alt="FISK"
-                               className="img-fluid"
-                          />
-                        </li>
-                        <li className="list-inline-item">
-                          <img
-                            src="img/fisk.png"
-                            width="85"
+                            src="img/fisk2.png"
                             alt="FISK"
                             className="img-fluid"
                           />
                         </li>
                         <li className="list-inline-item">
                           <img
-                             src="img/fisk.png"
-                             width="85"
-                             alt="FISK"
-                             className="img-fluid"
+                            src="img/fisk2.png"
+                            alt="FISK"
+                            className="img-fluid"
                           />
                         </li>
                         <li className="list-inline-item">
                           <img
-                            src="img/fisk.png"
-                            width="85"
+                            src="img/fisk2.png"
+                            alt="FISK"
+                            className="img-fluid"
+                          />
+                        </li>
+                        <li className="list-inline-item">
+                          <img
+                            src="img/fisk2.png"
+                            alt="FISK"
+                            className="img-fluid"
+                          />
+                        </li>
+                        <li className="list-inline-item">
+                          <img
+                            src="img/fisk2.png"
                             alt="FISK"
                             className="img-fluid"
                           />

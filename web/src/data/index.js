@@ -181,11 +181,11 @@ module.exports = {
     title: "Nosso time",
     description: "Rapidiously morph transparent internal or \"organic\" sources whereas resource sucking e-business. Conveniently innovate compelling internal.",
     members: [
-      "img/client-2.jpg",
-      "img/client-2.jpg",
-      "img/client-2.jpg",
-      "img/client-2.jpg",
-      "img/client-2.jpg",
+      "img/rafaela.png",
+      "img/vitao.png",
+      "img/robson.png",
+      "img/wedley.png",
+      "img/vitao.png",
     ]
   },
   teamMember: {
