@@ -42,14 +42,20 @@ export default class Screenshots extends React.Component {
               </div>
             </div>
             <div className="screen-slider-content mt-5">
-              <div className="screenshot-frame"></div>
+              <div className=""></div>
               <div className="screen-carousel owl-carousel owl-theme dot-indicator">
-                <img src="img/01.png" className="img-fluid" alt="screenshots" />
-                <img src="img/02.png" className="img-fluid" alt="screenshots" />
-                <img src="img/03.png" className="img-fluid" alt="screenshots" />
-                <img src="img/04.png" className="img-fluid" alt="screenshots" />
-                <img src="img/05.png" className="img-fluid" alt="screenshots" />
-                <img src="img/06.png" className="img-fluid" alt="screenshots" />
+                <div className="screen-carousel-single">
+                  <img src="img/Rectangle_2.png" className="img-fluid" alt="screenshots" width="600" />
+                </div>
+                <div className="screen-carousel-single">
+                  <img src="img/Rectangle_2.png" className="img-fluid" alt="screenshots" width="600" />
+                </div>
+                <div className="screen-carousel-single">
+                  <img src="img/Rectangle_2.png" className="img-fluid" alt="screenshots" width="600" />
+                </div>
+                <div className="screen-carousel-single">
+                  <img src="img/Rectangle_2.png" className="img-fluid" alt="screenshots" width="600" />
+                </div>
               </div>
             </div>
           </div>

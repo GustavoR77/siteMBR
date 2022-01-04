@@ -19,7 +19,7 @@ class Footer extends React.Component {
           <div
             className={"footer-top background-img-2 " + (this.props.noSubscription ? 'py-5' : 'pt-150 pb-5')} 
             style={{
-              backgroundImage: "url('img/footer-bg.png')",
+              backgroundImage: "url('img/logo_mbr_tecnologia_educacional.png')",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center top",
               backgroundSize: "cover"

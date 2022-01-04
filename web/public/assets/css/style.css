@@ -1444,9 +1444,9 @@ select.form-control.has-value{
     width: 100%;
 }
 .single-client:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .single-client:hover .client-img {
     -webkit-filter: none;
@@ -2118,6 +2118,13 @@ select.form-control.has-value{
     -webkit-transform: scale(1);
     transform: scale(1)
 }
+
+.screen-carousel-single:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 
 
 

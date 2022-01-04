@@ -19,7 +19,7 @@ class HeroSection extends React.Component {
         <section
           className="hero-section background-img"
           style={{
-            backgroundImage: "url('img/Logo_MBR.png')",
+            backgroundImage: "url('img/logo_mbr_tecnologia_educacional.png')",
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center center',
             backgroundSize: '100% 100%',
@@ -57,43 +57,40 @@ class HeroSection extends React.Component {
                       <ul className="list-inline justify-content-between">
                         <li className="list-inline-item">
                           <img
-                            src="img/fisk2.png"
+                            src="img/parceiros/logo_fisk.png"
                             alt="FISK"
                             className="img-fluid"
                           />
                         </li>
                         <li className="list-inline-item">
                           <img
-                            src="img/fisk2.png"
-                            alt="FISK"
+                            src="img/parceiros/logo_adalpha.png"
+                            alt="Adalpha"
+                            width="100"
                             className="img-fluid"
                           />
                         </li>
                         <li className="list-inline-item">
                           <img
-                            src="img/fisk2.png"
-                            alt="FISK"
+                            src="img/parceiros/logo_grow.png"
+                            alt="Grow"
+                            width="100"
                             className="img-fluid"
                           />
                         </li>
                         <li className="list-inline-item">
                           <img
-                            src="img/fisk2.png"
-                            alt="FISK"
+                            src="img/parceiros/logo_omg.png"
+                            alt="OMG"
+                            width="100"
                             className="img-fluid"
                           />
                         </li>
                         <li className="list-inline-item">
                           <img
-                            src="img/fisk2.png"
-                            alt="FISK"
-                            className="img-fluid"
-                          />
-                        </li>
-                        <li className="list-inline-item">
-                          <img
-                            src="img/fisk2.png"
-                            alt="FISK"
+                            src="img/parceiros/logo_pbf.png"
+                            alt="PBF"
+                            width="100"
                             className="img-fluid"
                           />
                         </li>

@@ -15,6 +15,7 @@
 // 7. custom counter js with scrolling
 // 8. client-testimonial one item carousel
 // 9. our clients logo carousel
+// 9.1 our team members carousel
 // 10. our clients logo carousel
 // 11. wow js
 
@@ -77,7 +78,7 @@ jQuery(function ($) {
     $('.screen-carousel').owlCarousel({
         loop: true,
         margin: 0,
-        center: true,
+        center: false,
         dots: true,
         nav: false,
         autoplay: true,
@@ -91,12 +92,7 @@ jQuery(function ($) {
             991: {
                 items: 4
             },
-            1200: {
-                items: 4
-            },
-            1920: {
-                items: 4
-            }
+
         }
     });
 
@@ -206,6 +202,7 @@ jQuery(function ($) {
         autoplayTimeout:4500,
         autoplayHoverPause:true,
         autoplaySpeed:4500,
+        
         responsive:{
             0:{
                 items:2
@@ -219,7 +216,38 @@ jQuery(function ($) {
             800:{
                 items:5
             },
-            1200:{
+            1000:{
+                items:6
+            }
+
+        }
+    })
+
+    // 9.1 our team members carousel
+    $('.team-carousel').owlCarousel({
+        autoplay: true,
+        loop: true,
+        margin:0,
+        dots:false,
+        slideTransition:'linear',
+        autoplayTimeout:4500,
+        autoplayHoverPause:true,
+        autoplaySpeed:4500,
+        
+        responsive:{
+            0:{
+                items:2
+            },
+            500: {
+                items:3
+            },
+            600:{
+                items:4
+            },
+            800:{
+                items:5
+            },
+            1000:{
                 items:6
             }
 

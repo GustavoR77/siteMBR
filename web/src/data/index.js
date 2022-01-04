@@ -168,24 +168,54 @@ module.exports = {
   ],
   trustedCompanyAboutUs: {
     title: "Nossos clientes",
-    description: "Rapidiously morph transparent internal or \"organic\" sources whereas resource sucking e-business. Conveniently innovate compelling internal.",
+    description: "",
     companies: [
-      "img/fisk.png",
-      "img/fisk.png",
-      "img/fisk.png",
-      "img/fisk.png",
-      "img/fisk.png",
+      "img/prefeituras/prefeitura_campinas_sp.png",
+      "img/prefeituras/prefeitura_esperanca_pb.png",
+      "img/prefeituras/prefeitura_ipeuna_sp.png",
+      "img/prefeituras/prefeitura_laranjal_paulista_sp.png",
+      "img/prefeituras/prefeitura_sao_bento_pb.png",
+      "img/prefeituras/prefeitura_tiete_sp.png",
+        
     ]
   },
   teamMembersDesigners: {
     title: "Nosso time",
-    description: "Rapidiously morph transparent internal or \"organic\" sources whereas resource sucking e-business. Conveniently innovate compelling internal.",
+    description: "Developers",
     members: [
-      "img/rafaela.png",
-      "img/vitao.png",
-      "img/robson.png",
-      "img/wedley.png",
-      "img/vitao.png",
+      "img/teamMembers/andre.png",
+      "img/teamMembers/bruno_g.png",
+      "img/teamMembers/eder.png",
+      
+      "img/teamMembers/leonardo.png",
+      "img/teamMembers/lucas.png",
+      "img/teamMembers/marcos.png",
+      "img/teamMembers/matheus.png",
+      "img/teamMembers/murilo.png",
+      "img/teamMembers/vitor.png",
+      "img/teamMembers/wedley.png",
+    ]
+  },
+  teamMembersAdmins: {
+    title: "Nosso time",
+    description: "Administrativo",
+    members: [
+      "img/teamMembers/andrew.png",
+      "img/teamMembers/claudio.png",
+      "img/teamMembers/marina.png",
+      "img/teamMembers/moises.png",
+    ]
+  },
+  teamMembersArts: {
+    title: "Nosso time",
+    description: "Artes",
+    members: [
+      "img/teamMembers/aluisio.png",
+      "img/teamMembers/armando.png",
+      "img/teamMembers/caio.png",
+      "img/teamMembers/lais.png",
+      "img/teamMembers/rafaela.png",
+      "img/teamMembers/robson.png",
     ]
   },
   teamMember: {

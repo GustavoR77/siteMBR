@@ -28,9 +28,9 @@ class TrustedCompany extends React.Component {
               <div className="col-md-8">
                 <div className="section-heading text-center mb-5">
                   <h2>{this.state.trustedCompany.title}</h2>
-                  <p className="lead">
+                  {/* <p className="lead">
                     {this.state.trustedCompany.description}
-                  </p>
+                    </p> */}
                 </div>
               </div>
             </div>
