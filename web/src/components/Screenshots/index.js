@@ -45,16 +45,16 @@ export default class Screenshots extends React.Component {
               <div className=""></div>
               <div className="screen-carousel owl-carousel owl-theme dot-indicator">
                 <div className="screen-carousel-single">
-                  <img src="img/Rectangle_2.png" className="img-fluid" alt="screenshots" width="600" />
+                  <img src="img/games/magic-club.png" className="img-fluid" alt="screenshots" width="600" />
                 </div>
                 <div className="screen-carousel-single">
-                  <img src="img/Rectangle_2.png" className="img-fluid" alt="screenshots" width="600" />
+                  <img src="img/games/alt.png" className="img-fluid" alt="screenshots" width="600" />
                 </div>
                 <div className="screen-carousel-single">
-                  <img src="img/Rectangle_2.png" className="img-fluid" alt="screenshots" width="600" />
+                  <img src="img/games/kubets.png" className="img-fluid" alt="screenshots" width="600" />
                 </div>
                 <div className="screen-carousel-single">
-                  <img src="img/Rectangle_2.png" className="img-fluid" alt="screenshots" width="600" />
+                  <img src="img/games/melhor-viagem.png" className="img-fluid" alt="screenshots" width="600" />
                 </div>
               </div>
             </div>

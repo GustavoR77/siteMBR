@@ -218,12 +218,13 @@ module.exports = {
       "img/teamMembers/robson.png",
     ]
   },
-  teamMember: {
-    members: [
+  products: {
+    productsList: [
       {
-        name: "Edna Mason",
-        designation: "Senior Designer",
-        image: "img/team-4.jpg"
+        name: "Lousa Digital",
+        designation: "",
+        image: "img/lousa digital-quad.png",
+        link: "",
       },
       {
         name: "Arabella Ora",

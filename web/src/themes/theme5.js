@@ -9,7 +9,7 @@ import VideoSection from "../components/Video";
 import PricingSection from "../components/Pricing";
 import Testimonial from "../components/Testimonial";
 import Screenshots from "../components/Screenshots";
-import TeamMember from "../components/TeamMember";
+import Products from "../components/Products";
 import ContactSection from "../components/Contact";
 import TrustedCompany from "../components/TrustedCompany/TrustedCompany";
 import TeamMembers from "../components/Members/TeamMembers";
@@ -28,7 +28,7 @@ class Theme extends Component {
           <FeatureSection bgColor="blue" />
           <PricingSection hideFaq={true} />
           <Screenshots />
-          {/* <TeamMember /> */}
+          <Products />
           <TeamMembers bgColor="blue" />
           <Testimonial bgColor="blue" />
           <ContactSection bgColor="blue" />
