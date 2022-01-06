@@ -223,13 +223,14 @@ module.exports = {
       {
         name: "Lousa Digital",
         designation: "",
-        image: "img/lousa digital-quad.png",
+        image: "img/products/lousaDigital-capa.png",
         link: "",
       },
       {
-        name: "Arabella Ora",
-        designation: "Senior Designer",
-        image: "img/team-1.jpg"
+        name: "Projetor",
+        designation: "",
+        image: "img/products/projetor-capa.png",
+        link: "",
       },
       {
         name: "John Charles",

@@ -43,10 +43,10 @@ class Products extends React.Component {
                         <img
                           src={member.image}
                           alt="Team productsList"
-                          className="img-fluid"
+                          className="img-fluid product-rounded"
                         />
                       </div>
-                      <div className="team-info text-white d-flex flex-column align-items-center justify-content-center">
+                      <div className="team-info text-white d-flex product-rounded flex-column align-items-center justify-content-center">
                         <h5 className="mb-0">{member.name}</h5>
                         <h6>{member.designation}</h6>
                         <ul className="list-inline team-social social-icon mt-4 text-white">

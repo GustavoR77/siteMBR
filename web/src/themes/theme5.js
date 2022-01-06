@@ -22,15 +22,15 @@ class Theme extends Component {
         <Header />
         <div className="main">
           <HeroSection />
-          <PromoSection removeTopMargin={true} />
           <AboutSection />
           <VideoSection showDownloadBtn={true} />
+          {/* <PromoSection removeTopMargin={true} />
           <FeatureSection bgColor="blue" />
           <PricingSection hideFaq={true} />
+    <Testimonial bgColor="blue" /> */}
           <Screenshots />
           <Products />
           <TeamMembers bgColor="blue" />
-          <Testimonial bgColor="blue" />
           <ContactSection bgColor="blue" />
           <TrustedCompany bgColor="blue" />
         </div>

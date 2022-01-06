@@ -2396,6 +2396,12 @@ blockquote:before {
     width: 100%;
 }
 
+/*products*/
+.product-rounded{
+    border-radius: 7%;
+}
+
+
 /*team single*/
 .team-social-list li a{
     padding: 5px;
