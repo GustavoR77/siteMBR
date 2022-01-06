@@ -32,7 +32,7 @@ export default class Routes extends React.PureComponent {
       <React.Fragment>
         <Router>
           <Switch>
-            <Route exact path="/" component={Theme1} />
+            <Route exact path="/" component={Theme5} />
             <Route exact path="/theme1" component={Theme1} />
             <Route exact path="/theme2" component={Theme2} />
             <Route exact path="/theme3" component={Theme3} />
@@ -49,6 +49,7 @@ export default class Routes extends React.PureComponent {
             <Route exact path="/review" component={Review} />
             <Route exact path="/faq" component={Faq} />
             <Route exact path="/404" component={NotFound} />
+            <Route path='*' exact={true} component={NotFound} />
             <Route exact path="/comingSoon" component={ComingSoon} />
             <Route exact path="/thankyou" component={ThankYou} />
             <Route exact path="/team" component={Team} />

@@ -17,13 +17,9 @@ class HeroSection extends React.Component {
     return (
       <React.Fragment>
         <section
-          className="hero-section ptb-100 background-img full-screen"
-          style={{
-            backgroundImage: "url('img/app-hero-bg.jpg')",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center center",
-            backgroundSize: "cover",
-          }}
+          id="bg"
+          className="hero-section background-img full-screen"
+
         >
           <div className="container">
             <div className="row align-items-center justify-content-center">
@@ -32,13 +28,13 @@ class HeroSection extends React.Component {
                   <div className="notfound-404">
                     <h1 className="text-white">404</h1>
                   </div>
-                  <h3 className="text-white">Sorry, something went wrong</h3>
+                  <h3 className="text-white">Desculpe, algo deu errado</h3>
                   <p>
-                    The page you are looking for might have been removed had its
-                    name changed or is temporarily unavailable.
+                    A página que você está procurando pode ter sido removida, ou teve seu nome alterado,
+                    ou foi temporariamente removida.
                   </p>
-                  <a className="btn app-store-btn" href="/">
-                    Go to Homepage
+                  <a className="btn google-play-btn" href="/">
+                    Homepage
                   </a>
                 </div>
               </div>

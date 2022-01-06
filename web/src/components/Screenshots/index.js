@@ -29,12 +29,14 @@ function Screenshots() {
             <div className=""></div>
             <div className="screen-carousel owl-carousel owl-theme dot-indicator">
               <div className="screen-carousel-single">
+              <a className="" href="/magic-club">
                 <img
                   src="img/games/magic-club.png"
                   className="img-fluid"
                   alt="screenshots"
                   width="600"
                 />
+              </a> 
               </div>
               <div className="screen-carousel-single">
                 <img
