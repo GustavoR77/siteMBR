@@ -233,9 +233,10 @@ module.exports = {
         link: "",
       },
       {
-        name: "John Charles",
-        designation: "Senior Designer",
-        image: "img/team-2.jpg"
+        name: "Tablet",
+        designation: "",
+        image: "img/products/tablet-capa.png",
+        link: "",
       },
       {
         name: "Jeremy Jere",

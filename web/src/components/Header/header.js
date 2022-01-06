@@ -10,7 +10,7 @@ class Header extends React.Component {
             <div className="container">
               <a className="navbar-brand" href="/">
                 <img
-                  src={this.props.bgColor && this.props.bgColor === 'white' ? "img/logo_mbr_tecnologia_educacional.png" : "img/logo_mbr_tecnologia_educacional.png"}
+                  src={this.props.bgColor && this.props.bgColor === 'white' ? "img/Logo_MBR-white.png" : "img/Logo_MBR-white.png"}
                   width="120"
                   alt="logo"
                   className="img-fluid"

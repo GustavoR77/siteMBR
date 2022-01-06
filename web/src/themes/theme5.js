@@ -8,7 +8,7 @@ import FeatureSection from "../components/Features/Feature2";
 import VideoSection from "../components/Video";
 import PricingSection from "../components/Pricing";
 import Testimonial from "../components/Testimonial";
-import Screenshots from "../components/Screenshots";
+import Screenshots from "../components/Screenshots/index";
 import Products from "../components/Products";
 import ContactSection from "../components/Contact";
 import TrustedCompany from "../components/TrustedCompany/TrustedCompany";
@@ -27,7 +27,7 @@ class Theme extends Component {
           {/* <PromoSection removeTopMargin={true} />
           <FeatureSection bgColor="blue" />
           <PricingSection hideFaq={true} />
-    <Testimonial bgColor="blue" /> */}
+          <Testimonial bgColor="blue" /> */}
           <Screenshots />
           <Products />
           <TeamMembers bgColor="blue" />

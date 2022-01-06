@@ -81,7 +81,7 @@ jQuery(function ($) {
         center: false,
         dots: true,
         nav: false,
-        autoplay: true,
+        autoplay: false,
         responsive: {
             0: {
                 items: 1
