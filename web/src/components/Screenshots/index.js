@@ -5,7 +5,7 @@ export default class Screenshots extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      price: {}
+      price: {},
     };
   }
 
@@ -15,7 +15,7 @@ export default class Screenshots extends React.Component {
      */
 
     this.setState({
-      price: _data.price
+      price: _data.price,
     });
   }
 
@@ -27,11 +27,15 @@ export default class Screenshots extends React.Component {
           className="screenshots-section ptb-100 blue-gray2-bg"
         >
           <div className="container">
+            <div id="modal">
+  
+            </div>
             <div className="row justify-content-center">
               <div className="col-md-8">
                 <div className="section-heading text-center">
                   <h2>
-                    App screenshots <br /> <span>Looks awesome</span>
+                    Nossos produtos digitais
+                    <br /> <span>Looks awesome</span>
                   </h2>
                   <p className="lead">
                     Credibly synthesize multimedia based networks vis-a-vis
@@ -45,16 +49,36 @@ export default class Screenshots extends React.Component {
               <div className=""></div>
               <div className="screen-carousel owl-carousel owl-theme dot-indicator">
                 <div className="screen-carousel-single">
-                  <img src="img/games/magic-club.png" className="img-fluid" alt="screenshots" width="600" />
+                  <img
+                    src="img/games/magic-club.png"
+                    className="img-fluid"
+                    alt="screenshots"
+                    width="600"
+                  />
                 </div>
                 <div className="screen-carousel-single">
-                  <img src="img/games/alt.png" className="img-fluid" alt="screenshots" width="600" />
+                  <img
+                    src="img/games/alt.png"
+                    className="img-fluid"
+                    alt="screenshots"
+                    width="600"
+                  />
                 </div>
                 <div className="screen-carousel-single">
-                  <img src="img/games/kubets.png" className="img-fluid" alt="screenshots" width="600" />
+                  <img
+                    src="img/games/kubets.png"
+                    className="img-fluid"
+                    alt="screenshots"
+                    width="600"
+                  />
                 </div>
                 <div className="screen-carousel-single">
-                  <img src="img/games/melhor-viagem.png" className="img-fluid" alt="screenshots" width="600" />
+                  <img
+                    src="img/games/melhor-viagem.png"
+                    className="img-fluid"
+                    alt="screenshots"
+                    width="600"
+                  />
                 </div>
               </div>
             </div>
