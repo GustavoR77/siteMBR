@@ -1,127 +1,54 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import _data from "../../data";
+import Admins from "./Admins";
+import Developers from "./Developers";
+import Arts from "./Arts";
+import Carousel from "./Carousel";
 
-class TeamMembers extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      teamMembersAdmins: [],
-      teamMembersDesigners: [],
-      teamMembersArts: [],
-    };
-  }
+function TeamMembers2() {
+  const [department, setDepartment] = useState("admin");
 
-  componentDidMount() {
-    /**
-     * Your ajax will goes here to get data then call setState
-     */
+  useEffect(() => {
+    console.log(department);
+  },[department]
+  );
 
-    this.setState({
-      teamMembersAdmins: _data.teamMembersAdmins,
-      teamMembersDesigners: _data.teamMembersDesigners,
-      teamMembersArts: _data.teamMembersArts
-    });
-  }
-
-  render() {
-    return (
-      <React.Fragment>
-        <section className={"client-section ptb-100 " + (this.props.bgColor && this.props.bgColor === 'gray' ? 'gray-light-bg' : '')}>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-md-8">
-                <div className="section-heading text-center mb-5">
-                  <h2>{this.state.teamMembersAdmins.title}</h2>
-                  <p className="lead">
-                    {this.state.teamMembersAdmins.description}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row align-items-center">
-              <div className="col-md-12">
-                <div className="owl-carousel owl-theme team-carousel">
-                  {(this.state.teamMembersAdmins.members || []).map(
-                    (member, index) => {
-                      return (
-                        <div className="item single-client" key={index}>
-                          <img
-                            src={member}
-                            alt="client logo"
-                            className="client-img"
-                          />
-                        </div>
-                      );
-                    }
-                  )}
-                </div>
+  return (
+    <>
+      <section className={"client-section ptb-100 blue-gray2-bg"}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-8">
+              <div className="section-heading text-center mb-5">
+                <h2>Nosso time</h2>
+                <p className="lead" onClick={() => setDepartment("admin")}>
+                  Admins
+                </p>
+                <p className="lead" onClick={() => setDepartment("developers")}>
+                  Developers
+                </p>
+                <p className="lead" onClick={() => setDepartment("arts")}>
+                  Arts
+                </p>
               </div>
             </div>
           </div>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-md-8">
-                <div className="section-heading text-center mb-5">
-                  <p className="lead">
-                    {this.state.teamMembersDesigners.description}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row align-items-center">
-              <div className="col-md-12">
-                <div className="owl-carousel owl-theme team-carousel">
-                  {(this.state.teamMembersDesigners.members || []).map(
-                    (member, index) => {
-                      return (
-                        <div className="item single-client" key={index}>
-                          <img
-                            src={member}
-                            alt="client logo"
-                            className="client-img"
-                          />
-                        </div>
-                      );
-                    }
-                  )}
-                </div>
-              </div>
+          <div className="row align-items-center">
+            <div className="col-md-12">
+              
+                
+            <Carousel estilo={{opacity: department === "admin" ? "1" : "0", transition: "opacity 1s linear"}} data={_data.teamMembersAdmins.members}/>
+                <Carousel estilo={{opacity: department === "developers" ? "1" : "0", transition: "opacity 1s linear"}} data={_data.teamMembersDevelopers.members}/>
+                <Carousel estilo={{opacity: department === "arts" ? "1" : "0", transition: "opacity 1s linear"}} data={_data.teamMembersArts.members}/>
+                
+                
+              
             </div>
           </div>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-md-8">
-                <div className="section-heading text-center mb-5">
-                  <p className="lead">
-                    {this.state.teamMembersArts.description}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row align-items-center">
-              <div className="col-md-12">
-                <div className="owl-carousel owl-theme team-carousel">
-                  {(this.state.teamMembersArts.members || []).map(
-                    (member, index) => {
-                      return (
-                        <div className="item single-client" key={index}>
-                          <img
-                            src={member}
-                            alt="client logo"
-                            className="client-img"
-                          />
-                        </div>
-                      );
-                    }
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </React.Fragment>
-    );
-  }
+        </div>
+      </section>
+    </>
+  );
 }
 
-export default TeamMembers;
+export default TeamMembers2;

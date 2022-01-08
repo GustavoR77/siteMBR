@@ -6,7 +6,7 @@ class TeamMembers extends React.Component {
     super(props);
     this.state = {
       teamMembersAdmins: [],
-      teamMembersDesigners: [],
+      teamMembersDevelopers: [],
       teamMembersArts: [],
     };
   }
@@ -18,7 +18,7 @@ class TeamMembers extends React.Component {
 
     this.setState({
       teamMembersAdmins: _data.teamMembersAdmins,
-      teamMembersDesigners: _data.teamMembersDesigners,
+      teamMembersDevelopers: _data.teamMembersDevelopers,
       teamMembersArts: _data.teamMembersArts
     });
   }
@@ -63,7 +63,7 @@ class TeamMembers extends React.Component {
               <div className="col-md-8">
                 <div className="section-heading text-center mb-5">
                   <p className="lead">
-                    {this.state.teamMembersDesigners.description}
+                    {this.state.teamMembersDevelopers.description}
                   </p>
                 </div>
               </div>
@@ -71,7 +71,7 @@ class TeamMembers extends React.Component {
             <div className="row align-items-center">
               <div className="col-md-12">
                 <div className="owl-carousel owl-theme team-carousel">
-                  {(this.state.teamMembersDesigners.members || []).map(
+                  {(this.state.teamMembersDevelopers.members || []).map(
                     (member, index) => {
                       return (
                         <div className="item single-client" key={index}>

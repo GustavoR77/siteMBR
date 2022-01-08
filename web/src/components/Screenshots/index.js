@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import _data from "../../data";
 
 function Screenshots() {
-
   return (
     <>
       <section
@@ -28,15 +27,15 @@ function Screenshots() {
           <div className="screen-slider-content mt-5">
             <div className=""></div>
             <div className="screen-carousel owl-carousel owl-theme dot-indicator">
-              <div className="screen-carousel-single">
-              <a className="" href="/magic-club">
-                <img
-                  src="img/games/magic-club.png"
-                  className="img-fluid"
-                  alt="screenshots"
-                  width="600"
-                />
-              </a> 
+              <div className="screen-carousel-single product-single">
+                <a className="" href="/magic-club">
+                  <img
+                    src="img/games/magic-club.png"
+                    className="img-fluid"
+                    alt="screenshots"
+                    width="600"
+                  />
+                </a>
               </div>
               <div className="screen-carousel-single">
                 <img

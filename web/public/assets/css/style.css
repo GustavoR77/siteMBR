@@ -94,13 +94,14 @@ html{
     background-image: url("../../img/Logo_MBR.png");
   
     /* Full height */
-    height: auto; 
-    width: auto;
+    height: 100%; 
+    width: 100%;
   
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80% 80%;
+    
   }
 
 /* -----------------------------------------
@@ -263,6 +264,14 @@ strong, b{
 .icon-color-6{
     background-color: #e2e8ff;
     color: #6582ed;
+}
+
+.display-hide{
+    display: none;
+}
+
+.display-show{
+    display: block;
 }
 
 .outline-btn, .solid-btn, .primary-solid-btn{
@@ -2096,7 +2105,7 @@ select.form-control.has-value{
     font-weight: 700;
 }
 
-/*sccreenshot css*/
+/*screenshot css*/
 .screen-slider-content {
     position: relative
 }
@@ -2126,7 +2135,6 @@ select.form-control.has-value{
     transform: scale(.85);
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    border: 1px solid #ebebeb;
     border-radius: 30px
 }
 

@@ -179,7 +179,7 @@ module.exports = {
         
     ]
   },
-  teamMembersDesigners: {
+  teamMembersDevelopers: {
     title: "Nosso time",
     description: "Developers",
     members: [
@@ -206,6 +206,7 @@ module.exports = {
       "img/teamMembers/moises.png",
     ]
   },
+
   teamMembersArts: {
     title: "Nosso time",
     description: "Artes",
@@ -218,6 +219,8 @@ module.exports = {
       "img/teamMembers/robson.png",
     ]
   },
+
+  
   products: {
     productsList: [
       {

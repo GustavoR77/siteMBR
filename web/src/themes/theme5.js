@@ -13,6 +13,7 @@ import Products from "../components/Products";
 import ContactSection from "../components/Contact";
 import TrustedCompany from "../components/TrustedCompany/TrustedCompany";
 import TeamMembers from "../components/Members/TeamMembers";
+import TeamMembers2 from "../components/Members/TeamMembers copy";
 import FooterSection from "../components/Footer";
 
 class Theme extends Component {
@@ -28,9 +29,10 @@ class Theme extends Component {
           <FeatureSection bgColor="blue" />
           <PricingSection hideFaq={true} />
           <Testimonial bgColor="blue" /> */}
-          <Screenshots />
           <Products />
+          <Screenshots />
           <TeamMembers bgColor="blue" />
+          <TeamMembers2 />
           <ContactSection bgColor="blue" />
           <TrustedCompany bgColor="blue" />
         </div>
