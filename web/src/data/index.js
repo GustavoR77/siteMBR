@@ -176,35 +176,8 @@ module.exports = {
       'img/prefeituras/prefeitura_tiete_sp.png',
     ],
   },
-  teamMembersDevelopers: {
-    title: 'Nosso time',
-    description: 'Developers',
-    members: [
-      'img/teamMembers/andre.png',
-      'img/teamMembers/bruno_g.png',
-      'img/teamMembers/eder.png',
 
-      'img/teamMembers/leonardo.png',
-      'img/teamMembers/lucas.png',
-      'img/teamMembers/marcos.png',
-      'img/teamMembers/matheus.png',
-      'img/teamMembers/murilo.png',
-      'img/teamMembers/vitor.png',
-      'img/teamMembers/wedley.png',
-    ],
-  },
   teamMembersAdmins: {
-    title: 'Nosso time',
-    description: 'Administrativo',
-    members: [
-      'img/teamMembers/andrew.png',
-      'img/teamMembers/claudio.png',
-      'img/teamMembers/marina.png',
-      'img/teamMembers/moises.png',
-    ],
-  },
-
-  teamMembersAdmins2: {
     members: [
       { 
         name: 'Andrew', 
@@ -233,16 +206,109 @@ module.exports = {
     ],
   },
 
-  teamMembersArts: {
-    title: 'Nosso time',
-    description: 'Artes',
+  teamMembersDesigners: {
     members: [
-      'img/teamMembers/aluisio.png',
-      'img/teamMembers/armando.png',
-      'img/teamMembers/caio.png',
-      'img/teamMembers/lais.png',
-      'img/teamMembers/rafaela.png',
-      'img/teamMembers/robson.png',
+      { 
+        name: 'Aluisio', 
+        img: 'img/teamMembers/aluisio.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Armando', 
+        img: 'img/teamMembers/armando.png',
+        cargo: '',
+        link: '',  
+      },
+      { 
+        name: 'Caio', 
+        img: 'img/teamMembers/caio.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Laís', 
+        img: 'img/teamMembers/lais.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Rafaela', 
+        img: 'img/teamMembers/rafaela.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Robson', 
+        img: 'img/teamMembers/robson.png',
+        cargo: '',
+        link: '', 
+      },
+    ],
+  },
+
+  teamMembersDevelopers: {
+    members: [
+      { 
+        name: 'André', 
+        img: 'img/teamMembers/andre.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Bruno', 
+        img: 'img/teamMembers/bruno_g.png',
+        cargo: '',
+        link: '',  
+      },
+      { 
+        name: 'Éder', 
+        img: 'img/teamMembers/eder.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Leonardo', 
+        img: 'img/teamMembers/leonardo.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Lucas', 
+        img: 'img/teamMembers/lucas.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Marcos', 
+        img: 'img/teamMembers/marcos.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Matheus', 
+        img: 'img/teamMembers/matheus.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Murilo', 
+        img: 'img/teamMembers/murilo.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Vitor', 
+        img: 'img/teamMembers/vitor.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Wedley', 
+        img: 'img/teamMembers/wedley.png',
+        cargo: '',
+        link: '', 
+      },
     ],
   },
 

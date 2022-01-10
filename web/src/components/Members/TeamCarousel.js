@@ -5,9 +5,7 @@ import Carousel from './Carousel'
 function TeamCarousel() {
   const [department, setDepartment] = useState('admin')
 
-  useEffect(() => {
-    console.log('Test', _data.teamMembersAdmins2.members);
-  }, [department])
+  useEffect(() => {}, [department])
 
   return (
     <>
@@ -83,7 +81,7 @@ function TeamCarousel() {
                   height: department === 'arts' ? '1' : '0',
                   transition: 'opacity 1s linear',
                 }}
-                data={_data.teamMembersArts.members}
+                data={_data.teamMembersDesigners.members}
               />
             </div>
           </div>
