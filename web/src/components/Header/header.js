@@ -13,7 +13,7 @@ class Header extends React.Component {
                   src={this.props.bgColor && this.props.bgColor === 'white' ? "img/Logo_MBR-white.png" : "img/Logo_MBR-white.png"}
                   width="120"
                   alt="logo"
-                  className="img-fluid"
+                  className="img-fluid mb-2"
                 />
               </a>
               <button
