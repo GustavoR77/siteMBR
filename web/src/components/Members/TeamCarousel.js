@@ -6,7 +6,7 @@ function TeamCarousel() {
   const [department, setDepartment] = useState('admin')
 
   useEffect(() => {
-    console.log(department)
+    console.log('Test', _data.teamMembersAdmins2.members);
   }, [department])
 
   return (

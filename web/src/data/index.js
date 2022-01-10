@@ -204,6 +204,35 @@ module.exports = {
     ],
   },
 
+  teamMembersAdmins2: {
+    members: [
+      { 
+        name: 'Andrew', 
+        img: 'img/teamMembers/andrew.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Cláudio', 
+        img: 'img/teamMembers/claudio.png',
+        cargo: '',
+        link: '',  
+      },
+      { 
+        name: 'Marina', 
+        img: 'img/teamMembers/marina.png',
+        cargo: '',
+        link: '', 
+      },
+      { 
+        name: 'Moisés', 
+        img: 'img/teamMembers/moises.png',
+        cargo: '',
+        link: '', 
+      },
+    ],
+  },
+
   teamMembersArts: {
     title: 'Nosso time',
     description: 'Artes',
