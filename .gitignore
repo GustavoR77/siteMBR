@@ -3,3 +3,14 @@
 # dependencies
 /web/node_modules
 /web/build
+web/node_modules/jest/tsconfig.tsbuildinfo
+web/node_modules/jest/tsconfig.json
+web/node_modules/jest/README.md
+web/node_modules/jest/package.json
+web/node_modules/jest/LICENSE
+web/node_modules/jest/build/jest.js
+web/node_modules/jest/build/jest.d.ts
+web/node_modules/jest/bin/jest.js
+web/node_modules/.bin/jest.ps1
+web/node_modules/.bin/jest.cmd
+web/node_modules/.bin/jest

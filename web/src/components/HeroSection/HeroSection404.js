@@ -30,7 +30,7 @@ class HeroSection extends React.Component {
                   </div>
                   <h3 className="text-white">Desculpe, algo deu errado</h3>
                   <p>
-                    A página que você está procurando pode ter sido removida, ou teve seu nome alterado,
+                    A página que você está procurando pode ter sido removida, ter o seu nome alterado,
                     ou foi temporariamente removida.
                   </p>
                   <a className="btn google-play-btn" href="/">

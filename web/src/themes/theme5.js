@@ -12,8 +12,7 @@ import Screenshots from "../components/Screenshots/index";
 import Products from "../components/Products";
 import ContactSection from "../components/Contact";
 import TrustedCompany from "../components/TrustedCompany/TrustedCompany";
-import TeamMembers from "../components/Members/TeamMembers";
-import TeamMembers2 from "../components/Members/TeamMembers copy";
+import TeamCarousel from "../components/Members/TeamCarousel";
 import FooterSection from "../components/Footer";
 
 class Theme extends Component {
@@ -31,8 +30,8 @@ class Theme extends Component {
           <Testimonial bgColor="blue" /> */}
           <Products />
           <Screenshots />
-          <TeamMembers bgColor="blue" />
-          <TeamMembers2 />
+          {/* <TeamMembers bgColor="blue" /> */}
+          <TeamCarousel />
           <ContactSection bgColor="blue" />
           <TrustedCompany bgColor="blue" />
         </div>

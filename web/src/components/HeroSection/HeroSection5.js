@@ -52,7 +52,7 @@ class HeroSection extends React.Component {
                   <div className="col-md-12">
                     <div className="client-section-wrap d-flex flex-row align-items-center">
                       <p className="lead mr-5 mb-0 text-white">
-                        Nossos maiores parceiros:
+                        Nossos parceiros:
                       </p>
                       <ul className="list-inline justify-content-between">
                         <li className="list-inline-item">
