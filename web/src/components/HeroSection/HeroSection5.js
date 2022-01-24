@@ -23,7 +23,7 @@ function HeroSection() {
                 <div className="col-md-8 col-lg-7">
                   <div className="hero-content-left text-white text-center mt-5 ptb-100">
                     <h1 className="display-1 text-white">MBR</h1>
-                    <p className="lead">Há 20 anos no mercado tecnológico </p>
+                    <p className="lead">Há 25 anos inovando a educação com o melhor da tecnologia para gerar uma experiência de aprendizagem única </p>
 
                     <a
                       href="#contact"

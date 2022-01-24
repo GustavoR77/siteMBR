@@ -141,14 +141,16 @@ module.exports = {
     ],
   },
   contact: {
-    title: 'Trabalhe conosco',
+    title: 'Contratamos talentos',
     description:
-      "It's very easy to get in touch with us. Just use the contact form or pay us a visit for a coffee at the office. Dynamically innovate competitive technology after an expanded array of leadership.",
+      "Você que tem um talento e quer fazer parte da nossa equipe, nos encaminhe uma mensagem e o seu currículo no e-mail abaixo.",
 
-    office: 'Head Office',
-    address: '121 King St, Melbourne VIC 3000, Australia',
-    phone: '+61 2 8376 6284',
-    email: 'hello@yourdomain.com',
+    office: 'Matriz',
+    address: 'Rua Professor Francisco de Assis Madeira, 234 - Centro - Tietê/SP',
+    officeFilial: 'Filial em Alphaville',
+    adressFilial: 'Alameda Tocantins, 75 - Edifício West Gate - Salas 707 e 708',
+    phone: '+55 15 3282-6226',
+    email: 'rh@mbr.net.br',
   },
   trustedCompany: [
     'img/client-1-color.png',

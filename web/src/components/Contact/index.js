@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import { connect } from 'react-redux'
 import { submitContact } from '../../actions/index'
 import _data from '../../data'
@@ -115,12 +115,16 @@ class Contact extends Component {
                 </div>
                 <div className="footer-address">
                   <h6>
-                    <strong>{this.state.contact.office}</strong>
+                    <strong className='fw-bold'>{this.state.contact.office}</strong>
                   </h6>
                   <p>{this.state.contact.address}</p>
+                  <h6>
+                    <strong className='fw-bold'>{this.state.contact.officeFilial}</strong>
+                  </h6>
+                  <p>{this.state.contact.adressFilial}</p>
                   <ul>
                     <li>
-                      <span>Phone: {this.state.contact.phone}</span>
+                      <span>Telefone: {this.state.contact.phone}</span>
                     </li>
                     <li>
                       <span>
@@ -140,7 +144,7 @@ class Contact extends Component {
                   className="contact-us-form"
                   onSubmit={this.handleSubmit}
                 >
-                  <h5>Reach us quickly</h5>
+                  <h5>Preencha o formulário</h5>
                   <div className="row">
                     <div className="col-sm-6 col-12">
                       <div className="form-group">
@@ -152,7 +156,7 @@ class Contact extends Component {
                           type="text"
                           className="form-control"
                           name="name"
-                          placeholder="Enter name"
+                          placeholder="Nome"
                           required="required"
                         />
                       </div>
@@ -167,7 +171,7 @@ class Contact extends Component {
                           type="email"
                           className="form-control"
                           name="email"
-                          placeholder="Enter email"
+                          placeholder="Email"
                           required="required"
                         />
                       </div>
@@ -185,7 +189,7 @@ class Contact extends Component {
                           name="phone"
                           className="form-control"
                           id="phone"
-                          placeholder="Your Phone"
+                          placeholder="Telefone"
                         />
                       </div>
                     </div>

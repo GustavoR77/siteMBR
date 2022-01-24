@@ -30,7 +30,7 @@ class Footer extends React.Component {
                 <div className="col-lg-3 mb-3 mb-lg-0">
                   <div className="footer-nav-wrap text-white">
                     <img
-                      src="img/logo-white-1x.png"
+                      src="img/Logo_MBR-white.png"
                       alt="footer logo"
                       width="120"
                       className="img-fluid mb-3"
@@ -91,7 +91,7 @@ class Footer extends React.Component {
                 </div>
                 <div className="col-lg-3 ml-auto mb-4 mb-lg-0">
                   <div className="footer-nav-wrap text-white">
-                    <h5 className="mb-3 text-white">Support</h5>
+                    <h5 className="mb-3 text-white">Suporte</h5>
                     <ul className="list-unstyled support-list">
                       <li className="mb-2 d-flex align-items-center">
                         <span className="ti-location-pin mr-2"></span>
@@ -123,7 +123,7 @@ class Footer extends React.Component {
                 </div>
                 <div className="col-lg-3">
                   <div className="footer-nav-wrap text-white">
-                    <h5 className="mb-3 text-white">Location</h5>
+                    <h5 className="mb-3 text-white">Localização</h5>
                     <div className="embed-responsive embed-responsive-4by3">
                       <iframe className="embed-responsive-item" 
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.8363953627027!2d-47.71841938498818!3d-23.103084150713098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c612798f987d17%3A0x8af1759a64c5940f!2sMBR%20-%20Tecnologia%20Educacional!5e0!3m2!1sen!2sbr!4v1638791194472!5m2!1sen!2sbr" 

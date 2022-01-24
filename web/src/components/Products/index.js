@@ -26,10 +26,9 @@ class Products extends React.Component {
             <div className="row justify-content-center">
               <div className="col-lg-7 col-md-8">
                 <div className="section-heading text-center mb-5">
-                  <h2>Nossos produtos</h2>
+                  <h2>Nossos produtos físicos</h2>
                   <p className="lead">
-                    Following reasons show advantages of adding AppCo to your
-                    lead pages, demos and checkouts
+                    O melhor da tecnologia para a educação nas escolas.
                   </p>
                 </div>
               </div>
