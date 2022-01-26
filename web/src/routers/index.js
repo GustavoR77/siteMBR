@@ -25,14 +25,15 @@ import SingleTeam from "../themes/singleTeam";
 import Blog from "../themes/blog";
 import BlogLeft from "../themes/blogLeft";
 import BlogRight from "../themes/blogRight";
+import Homepage from "../themes/homepage";
 
 function Routes() {
   return (
     <React.Fragment>
       <Router>
         <Switch>
-          <Route exact path="/" component={Theme5} />
-          <Route exact path="/theme1" component={Theme1} />
+          <Route exact path="/" component={Homepage} />
+          {/* <Route exact path="/theme1" component={Theme1} />
           <Route exact path="/theme2" component={Theme2} />
           <Route exact path="/theme3" component={Theme3} />
           <Route exact path="/theme4" component={Theme4} />
@@ -55,8 +56,8 @@ function Routes() {
           <Route exact path="/singleTeam" component={SingleTeam} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/blogLeft" component={BlogLeft} />
-          <Route exact path="/blogRight" component={BlogRight} />
-        </Switch>
+  <Route exact path="/blogRight" component={BlogRight} /> */}
+        </Switch> 
       </Router>
     </React.Fragment>
   );

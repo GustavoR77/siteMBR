@@ -17,7 +17,7 @@ class Footer extends React.Component {
       <React.Fragment>
         <footer className="footer-section">
           <div
-            className={"footer-top background-img-2 " + (this.props.noSubscription ? 'py-5' : 'pt-150 pb-5')} 
+            className={"footer-top background-img-2 " + (this.props.noSubscription ? 'py-5' : 'pt-150 pb-5')}
             style={{
               backgroundImage: "url('img/logo_mbr_tecnologia_educacional.png')",
               backgroundRepeat: "no-repeat",
@@ -36,9 +36,7 @@ class Footer extends React.Component {
                       className="img-fluid mb-3"
                     />
                     <p>
-                      Holisticly empower premium architectures without
-                      value-added ideas. Seamlessly evolve cross-platform
-                      experiences.
+                      Há 25 anos inovando a educação com o melhor da tecnologia para gerar uma experiência de aprendizagem única.
                     </p>
 
                     <div className="social-list-wrap">
@@ -72,19 +70,10 @@ class Footer extends React.Component {
                     <h5 className="mb-3 text-white">Others Links</h5>
                     <ul className="list-unstyled">
                       <li className="mb-2">
-                        <a href="/#">About Us</a>
+                        <a href="/#">Sobre Nós</a>
                       </li>
                       <li className="mb-2">
-                        <a href="/#">Contact Us</a>
-                      </li>
-                      <li className="mb-2">
-                        <a href="/#">Pricing</a>
-                      </li>
-                      <li className="mb-2">
-                        <a href="/#">Privacy Policy</a>
-                      </li>
-                      <li className="mb-2">
-                        <a href="/#">Terms and Conditions</a>
+                        <a href="/#">Contato</a>
                       </li>
                     </ul>
                   </div>
@@ -108,11 +97,7 @@ class Footer extends React.Component {
                       </li>
                       <li className="mb-2 d-flex align-items-center">
                         <i className="fas fa-mail-bulk mr-2"></i>
-                        <a href="mailto:mail@example.com"> mail@example.com</a>
-                      </li>
-                      <li className="mb-2 d-flex align-items-center">
-                        <i class="fab fa-whatsapp mr-2 fa-lg"></i>
-                        <a href="https://wa.me/5515996463919" target="_blank"> +55 15 99646-3919</a>
+                        <a href="mailto:rh@mbr.net.br"> rh@mbr.net.br</a>
                       </li>
                       <li className="mb-2 d-flex align-items-center">
                         <span className="ti-world mr-2"></span>
@@ -125,9 +110,9 @@ class Footer extends React.Component {
                   <div className="footer-nav-wrap text-white">
                     <h5 className="mb-3 text-white">Localização</h5>
                     <div className="embed-responsive embed-responsive-4by3">
-                      <iframe className="embed-responsive-item" 
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.8363953627027!2d-47.71841938498818!3d-23.103084150713098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c612798f987d17%3A0x8af1759a64c5940f!2sMBR%20-%20Tecnologia%20Educacional!5e0!3m2!1sen!2sbr!4v1638791194472!5m2!1sen!2sbr" 
-                      allowFullScreen="" loading="lazy" />
+                      <iframe className="embed-responsive-item"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.8363953627027!2d-47.71841938498818!3d-23.103084150713098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c612798f987d17%3A0x8af1759a64c5940f!2sMBR%20-%20Tecnologia%20Educacional!5e0!3m2!1sen!2sbr!4v1638791194472!5m2!1sen!2sbr"
+                        allowFullScreen="" loading="lazy" />
                     </div>
                   </div>
                 </div>

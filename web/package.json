@@ -2,7 +2,7 @@
   "name": "mbr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://appco-react.themetags.com",
+  "homepage": "http://mbr.net.br/new/",
   "dependencies": {
     "react": "^16.14.0",
     "react-bootstrap": "^2.1.0",

@@ -91,16 +91,16 @@ html{
 
 #bg { 
     /* The image used */
-    background-image: url("../../img/Logo_MBR.png");
+    background-image: url("../../img/fundo_error.png");
   
     /* Full height */
-    height: 100%; 
+    height: auto; 
     width: 100%;
   
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 80% 80%;
+    background-size: 100% 100%;
     
   }
 
@@ -1861,7 +1861,7 @@ select.form-control.has-value{
 .background-img:before{
     position: absolute;
     content: '';
-    background-image: linear-gradient(to right, rgba(20, 35, 51, 0.95), rgba(39, 65, 93, 0.95), rgba(62, 107, 154, 0.90), rgba(88, 153, 221, 0.85));
+    background-image: linear-gradient(to right, rgba(20, 35, 51, 0.55), rgba(39, 65, 93, 0.55), rgba(62, 107, 154, 0.50), rgba(88, 153, 221, 0.55));
     
     width: 100%;
     height: 100%;
