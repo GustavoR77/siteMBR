@@ -188,8 +188,14 @@ module.exports = {
         link: '', 
       },
       { 
-        name: 'Cláudio', 
-        img: 'img/teamMembers/claudio.png',
+        name: 'Franciele', 
+        img: 'img/teamMembers/franciele.png',
+        cargo: '',
+        link: '',  
+      },
+      { 
+        name: 'Leonor', 
+        img: 'img/teamMembers/leonor.png',
         cargo: '',
         link: '',  
       },

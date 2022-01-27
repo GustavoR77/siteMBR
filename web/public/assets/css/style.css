@@ -628,6 +628,34 @@ select.form-control.has-value{
     }
 }
 
+.mbr-video {
+    background-image: url("../../img/Logo_MBR.png") !important;    
+    background-repeat: "no-repeat" !important;
+    background-position: "center center" !important;
+    background-size: "40% 80%" !important;
+}
+
+/* next size - tablet */
+@media (min-width: 768px) {
+    .mbr-video {
+      background-image: url("../../img/Logo_MBR.png");
+    }
+  }
+
+/* next size - tablet landscape and it covers desktop */
+@media (min-width: 1024px) {
+    .mbr-video {
+        background-image: url("../../img/Logo_MBR.png");
+      }
+  }
+  
+  /* next size - larger desktops */
+  @media (min-width: 1280px) {
+    .mbr-video {
+        background-image: url("../../img/Logo_MBR.png");
+      }
+  }
+
 /*=========================================
             05. HERO SECTION CSS
 ============================================*/

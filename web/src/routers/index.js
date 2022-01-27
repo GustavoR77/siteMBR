@@ -32,7 +32,7 @@ function Routes() {
     <React.Fragment>
       <Router>
         <Switch>
-          <Route exact path="/" component={Homepage} />
+          <Route exact path="/" component={Theme5} />
           {/* <Route exact path="/theme1" component={Theme1} />
           <Route exact path="/theme2" component={Theme2} />
           <Route exact path="/theme3" component={Theme3} />

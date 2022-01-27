@@ -18,12 +18,12 @@ class Video extends React.Component {
       <React.Fragment>
         <section
           id="download"
-          className="video-promo ptb-100 background-img"
+          className="mbr-video ptb-100 background-img"
           style={{
-            backgroundImage: "url('img/Logo_MBR.png')",
+            backgroundImage: "url('img/Logo_MBR.png')",    
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
-            backgroundSize: "80% 80%"
+            backgroundSize: "40% 80%",
           }}
         >
           <div className="container">
@@ -37,7 +37,7 @@ class Video extends React.Component {
                     <span className="ti-control-play"></span>{" "}
                   </a>
                   <h5 className="mt-4 text-white">Confira nosso vídeo</h5>
-                  {this.props.showDownloadBtn &&
+                  {/* {this.props.showDownloadBtn &&
                     this.props.showDownloadBtn === true && (
                       <div className="download-btn mt-5">
                         <a href="/#" className="btn google-play-btn mr-3">
@@ -47,7 +47,7 @@ class Video extends React.Component {
                           <span className="ti-apple"></span> App Store
                         </a>
                       </div>
-                    )}
+                    )} */}
                 </div>
               </div>
             </div>
