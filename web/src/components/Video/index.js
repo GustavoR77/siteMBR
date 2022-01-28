@@ -1,63 +1,27 @@
-import React from "react";
-import { connect } from "react-redux";
+import React from 'react'
 
-class Video extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  componentDidMount() {
-    /**
-     * Your ajax will goes here to get data then call setState
-     */
-  }
-
-  render() {
-    return (
-      <React.Fragment>
-        <section
-          id="download"
-          className="mbr-video ptb-100 background-img"
-          style={{
-            backgroundImage: "url('img/Logo_MBR.png')",    
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center center",
-            backgroundSize: "40% 80%",
-          }}
-        >
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-md-6">
-                <div className="video-promo-content mt-4 text-center">
-                  <a
-                    href="https://player.vimeo.com/video/299432146"
-                    className="popup-youtube video-play-icon d-inline-block"
-                  >
-                    <span className="ti-control-play"></span>{" "}
-                  </a>
-                  <h5 className="mt-4 text-white">Confira nosso vídeo</h5>
-                  {/* {this.props.showDownloadBtn &&
-                    this.props.showDownloadBtn === true && (
-                      <div className="download-btn mt-5">
-                        <a href="/#" className="btn google-play-btn mr-3">
-                          <span className="ti-android"></span> Google Play
-                        </a>
-                        <a href="/#" className="btn app-store-btn">
-                          <span className="ti-apple"></span> App Store
-                        </a>
-                      </div>
-                    )} */}
-                </div>
+function Video() {
+  return (
+    <>
+      <section className="bg-image background-img intro-video">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-6">
+              <div className="video-promo-content mt-3 text-center">
+                <a
+                  href="https://player.vimeo.com/video/299432146"
+                  className="popup-youtube video-play-icon d-inline-block"
+                >
+                  <span className="ti-control-play"></span>{' '}
+                </a>
+                <h5 className="mt-4 text-white">Confira nosso vídeo</h5>
               </div>
             </div>
           </div>
-        </section>
-      </React.Fragment>
-    );
-  }
+        </div>
+      </section>
+    </>
+  )
 }
 
-export default connect(state => ({
-  state
-}))(Video);
+export default Video

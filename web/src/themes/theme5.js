@@ -5,7 +5,7 @@ import HeroSection from "../components/HeroSection/HeroSection5";
 import PromoSection from "../components/PromoSection/Promo2";
 import AboutSection from "../components/AboutUs/AboutUs5";
 import FeatureSection from "../components/Features/Feature2";
-import VideoSection from "../components/Video";
+import Video from "../components/Video/index";
 import PricingSection from "../components/Pricing";
 import Testimonial from "../components/Testimonial";
 import Screenshots from "../components/Screenshots/index";
@@ -24,7 +24,7 @@ class Theme extends Component {
         <div className="main">
           <HeroSection />
           <AboutSection />
-          <VideoSection showDownloadBtn={true} />
+          <Video />
           {/* <PromoSection removeTopMargin={true} />
           <FeatureSection bgColor="blue" />
           <PricingSection hideFaq={true} />

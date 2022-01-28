@@ -633,26 +633,56 @@ select.form-control.has-value{
     background-repeat: "no-repeat" !important;
     background-position: "center center" !important;
     background-size: "40% 80%" !important;
+
+    padding: 100px 0;
+
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.mbr-video:before{
+    position: absolute;
+    content: '';
+    background-image: linear-gradient(to right, rgba(20, 35, 51, 0.55), rgba(39, 65, 93, 0.55), rgba(62, 107, 154, 0.50), rgba(88, 153, 221, 0.55));
+    
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.intro-video {
+    background-image: url("../../img/background/rubikcube-wallpaper.jpg");
+    height: 35vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+    padding: 65px 0;
 }
 
 /* next size - tablet */
 @media (min-width: 768px) {
-    .mbr-video {
-      background-image: url("../../img/Logo_MBR.png");
+    .intro-video {
+        background-image: url("../../img/background/thumb-1920-316902.jpg");
     }
   }
 
 /* next size - tablet landscape and it covers desktop */
 @media (min-width: 1024px) {
-    .mbr-video {
-        background-image: url("../../img/Logo_MBR.png");
+    .intro-video {
+        background-image: url("../../img/background/thumb-1920-316902.jpg");
       }
   }
   
   /* next size - larger desktops */
   @media (min-width: 1280px) {
-    .mbr-video {
-        background-image: url("../../img/Logo_MBR.png");
+    .intro-video {
+        background-image: url("../../img/background/thumb-1920-316902.jpg");
+        height: 80vh;
+        
       }
   }
 
