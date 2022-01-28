@@ -628,6 +628,11 @@ select.form-control.has-value{
     }
 }
 
+.product-row{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
 .intro-video {
     background-image: url("../../img/background/rubikcube-wallpaper.jpg");
     height: auto;
@@ -642,6 +647,11 @@ select.form-control.has-value{
     .intro-video {
         background-image: url("../../img/background/rubikcube-wallpaper.jpg");
         background-size: 100% 125%;
+    }
+
+    .product-row{
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
   }
 
@@ -663,7 +673,7 @@ select.form-control.has-value{
   @media (min-width: 1280px) {
     .intro-video {
         background-image: url("../../img/background/rubikcube-wallpaper.jpg");        
-        padding: 190px 0;
+        padding: 180px 0;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 100% 135%;        

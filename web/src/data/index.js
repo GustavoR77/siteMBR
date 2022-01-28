@@ -343,7 +343,7 @@ module.exports = {
       {
         name: 'Jeremy Jere',
         designation: 'Senior Designer',
-        image: 'img/team-3.jpg',
+        image: 'img/products/tablet-capa.png',
       },
     ],
   },
