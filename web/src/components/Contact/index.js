@@ -99,12 +99,8 @@ class Contact extends Component {
       <React.Fragment>
         <section
           id="contact"
-          className={
-            'contact-us ptb-100 ' +
-            (this.props.bgColor && this.props.bgColor === 'blue-gray2-bg'
-              ? ''
-              : 'blue-gray2-bg')
-          }
+          className=
+            "contact-us ptb-100"
         >
           <div className="container">
             <div className="row">

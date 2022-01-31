@@ -9,7 +9,7 @@ function TeamCarousel() {
 
   return (
     <>
-      <section id="teammembers" className="client-section ptb-100">
+      <section id="teammembers" className="client-section ptb-100  blue-gray2-bg">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8">
