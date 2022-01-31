@@ -341,9 +341,10 @@ module.exports = {
         link: '',
       },
       {
-        name: 'Jeremy Jere',
-        designation: 'Senior Designer',
+        name: 'Notebook',
+        designation: '',
         image: 'img/products/tablet-capa.png',
+        link: '',
       },
     ],
   },

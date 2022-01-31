@@ -254,6 +254,31 @@ jQuery(function ($) {
         }
     })
 
+        // 9.2 our products  carousel
+        $('.products-carousel').owlCarousel({
+            autoplay: false,
+            loop: true,
+            margin:15,
+            dots:true,
+            slideTransition:'linear',
+            autoplayTimeout:4500,
+            autoplayHoverPause:true,
+            autoplaySpeed:4500,
+            
+            responsive:{
+                0:{
+                    items:2
+                },
+                500: {
+                    items:3
+                },
+                800:{
+                    items:4
+                }
+    
+            }
+        })
+
     // 10. our clients logo carousel
     $(document).ready(function(){
         $(".player").YTPlayer();
