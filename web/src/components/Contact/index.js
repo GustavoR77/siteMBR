@@ -100,12 +100,12 @@ class Contact extends Component {
         <section
           id="contact"
           className=
-            "contact-us ptb-100 blue-gray2-bg"
+          "contact-us ptb-100 blue-gray2-bg"
         >
-          <div className="container">
+          <div className="container text-center">
             <div className="row">
               <div className="col-md-5">
-                <div className="section-heading">
+                <div className="section-heading text-center">
                   <h3>{this.state.contact.title}</h3>
                   <p>{this.state.contact.description}</p>
                 </div>
@@ -140,7 +140,7 @@ class Contact extends Component {
                   className="contact-us-form"
                   onSubmit={this.handleSubmit}
                 >
-                  <h5>Preencha o formulário</h5>
+                  <h5 className='text-center'>Preencha o formulário</h5>
                   <div className="row">
                     <div className="col-sm-6 col-12">
                       <div className="form-group">
@@ -201,11 +201,12 @@ class Contact extends Component {
                           size="40"
                           className="form-control"
                           id="company"
-                          placeholder="Your Company"
+                          placeholder="Empresa"
                         />
                       </div>
                     </div>
                   </div>
+
                   <div className="row">
                     <div className="col-12">
                       <div className="form-group">
@@ -219,7 +220,7 @@ class Contact extends Component {
                           className="form-control"
                           rows="7"
                           cols="25"
-                          placeholder="Message"
+                          placeholder="Mensagem"
                         ></textarea>
                       </div>
                     </div>

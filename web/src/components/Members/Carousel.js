@@ -5,7 +5,7 @@ function Carousel(props) {
   const departments = props.data
 
   return (
-    <div style={{ height: '0px' }}>
+    <div className="" style={{ height: '0px' }}>
       <div className="" style={props.estilo}>
         <div className="owl-carousel owl-theme team-carousel">
           {(departments || []).map((member, index) => {
