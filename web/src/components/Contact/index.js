@@ -100,7 +100,7 @@ class Contact extends Component {
         <section
           id="contact"
           className=
-            "contact-us ptb-100"
+            "contact-us ptb-100 blue-gray2-bg"
         >
           <div className="container">
             <div className="row">

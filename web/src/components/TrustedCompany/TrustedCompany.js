@@ -22,7 +22,7 @@ class TrustedCompany extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section className="client-section ptb-100 blue-gray2-bg">
+        <section className="client-section ptb-100">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-8">

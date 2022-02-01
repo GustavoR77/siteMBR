@@ -3,14 +3,15 @@ import _data from '../../data'
 import ProductsLargeWidth from './ProductsLargeWidth'
 import ProductsSmallWidth from './ProductsSmallWidth'
 
-function Products() {
+function Products(props) {
   const [width, setWidth] = useState(window.innerWidth)
+  const background = props.background;
 
   useEffect(() => {}, [window.innerWidth])
 
   return (
     <>
-      <section id="team" className="team-product-section ptb-100">
+      <section id="team" className={"team-product-section ptb-100 " + background}>
         <div className="container-fluid">
           <div className="row justify-content-around">
             <div className="col-lg-7 col-md-8">

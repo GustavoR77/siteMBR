@@ -2,14 +2,15 @@ import React, { useState, useEffect } from 'react'
 import _data from '../../data'
 import Carousel from './Carousel'
 
-function TeamCarousel() {
+function TeamCarousel(props) {
   const [department, setDepartment] = useState('admin')
+  const background = props.background
 
   useEffect(() => {}, [department])
 
   return (
     <>
-      <section id="teammembers" className="client-section ptb-100  blue-gray2-bg">
+      <section id="teammembers" className={"client-section ptb-100  " + background}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8">

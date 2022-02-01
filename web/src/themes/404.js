@@ -10,6 +10,7 @@ class NotFound extends Component {
           <HeroSection />
         </div>  
       </React.Fragment>
+      
     );
   }
 }

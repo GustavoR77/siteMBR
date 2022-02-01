@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import _data from "../../data";
 
-function Screenshots() {
+function Screenshots(props) {
+  const background = props
   return (
     <>
       <section
         id="screenshots"
-        className="screenshots-section ptb-100 blue-gray2-bg"
+        className={"screenshots-section ptb-100 " + background}
       >
         <div className="container">
           <div className="row justify-content-center">

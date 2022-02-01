@@ -23,18 +23,18 @@ class Theme extends Component {
         <Header />
         <div className="main">
           <HeroSection />
-          <AboutSection />
-          <Video />
+          <AboutSection background=""/>
+          <Video background=""/>
           {/* <PromoSection removeTopMargin={true} />
           <FeatureSection bgColor="blue" />
           <PricingSection hideFaq={true} />
           <Testimonial bgColor="blue" /> */}
-          <Screenshots />
-          <Products />
+          <Screenshots background=""/>
+          <Products background="blue-gray2-bg"/>
           {/* <TeamMembers bgColor="blue" /> */}
-          <TeamCarousel />
-          <ContactSection bgColor="blue" />
-          <TrustedCompany bgColor="blue" />
+          <TeamCarousel background=""/>
+          <ContactSection background="" />
+          <TrustedCompany background="" />
         </div>
         <FooterSection noSubscription={true} />
       </React.Fragment>

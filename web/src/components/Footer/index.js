@@ -15,7 +15,7 @@ class Footer extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section className="client-section ptb-100">
+        <section className="client-section ptb-100 blue-gray2-bg">
           <footer className="footer-section ">
             <div
               className={
