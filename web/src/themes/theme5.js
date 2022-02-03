@@ -19,7 +19,7 @@ import FooterSection from "../components/Footer";
 class Theme extends Component {
   render() {
     return (
-      <React.Fragment>
+      <>
         <Header />
         <div className="main">
           <HeroSection />
@@ -37,7 +37,7 @@ class Theme extends Component {
           <TrustedCompany background="" />
         </div>
         <FooterSection noSubscription={true} />
-      </React.Fragment>
+      </>
     );
   }
 }

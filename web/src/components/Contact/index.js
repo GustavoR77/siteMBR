@@ -13,7 +13,7 @@ class Contact extends Component {
       company: '',
       message: '',
       disableContactBtn: false,
-      contactBtnText: 'Send Message',
+      contactBtnText: 'Enviar',
       contact: {},
     }
 
@@ -125,7 +125,7 @@ class Contact extends Component {
                     <li>
                       <span>
                         Email :{' '}
-                        <a href="mailto:hello@yourdomain.com">
+                        <a className="text-white text-decoration-underline" href="mailto:hello@yourdomain.com">
                           {this.state.contact.email}
                         </a>
                       </span>
@@ -196,7 +196,7 @@ class Contact extends Component {
                           onChange={(e) =>
                             this.handleFormValueChange('company', e)
                           }
-                          type="text"
+                          type="file"
                           name="company"
                           size="40"
                           className="form-control"
@@ -233,7 +233,7 @@ class Contact extends Component {
                         id="btnContactUs"
                         disabled={this.state.disableContactBtn}
                         onClick={() => {
-                          this.changeBtnText('Sending...')
+                          this.changeBtnText('Enviando...')
                         }}
                       >
                         {this.state.contactBtnText}
