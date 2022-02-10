@@ -3066,6 +3066,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 /*blog sidebar*/
 
+.footer-column {
+    margin-top: 1rem;
+}
+
 .widget-search {
     padding: 0;
     border: 0;

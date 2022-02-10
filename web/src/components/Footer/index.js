@@ -8,7 +8,7 @@ function Footer() {
       <footer className="footer-section text-center">
         <div
           className=
-          'footer-top background-img-2 py-5 pt-150 pb-5'
+          'footer-top background-img-2 py-5 pt-150 pb-5 '
 
           style={{
             backgroundImage:
@@ -18,7 +18,7 @@ function Footer() {
             backgroundSize: 'cover',
           }}
         >
-          <div className="container">
+          <div className="container ">
             <div className="row justify-content-between ">
               <div className="col-lg-3 mb-3 mb-lg-0 ">
                 <div className="footer-nav-wrap text-white">
@@ -37,7 +37,7 @@ function Footer() {
               </div>
               <div className="col-lg-3 ml-auto mb-4 mb-lg-0">
                 <div className="footer-nav-wrap text-white">
-                  <h5 className="mb-3 text-white">Outros Links</h5>
+                  <h5 className="mb-3 footer-column text-white">Outros Links</h5>
                   <ul className="list-unstyled">
                     <li className="mb-2">
                       <a href="/#">Sobre Nós</a>
@@ -84,7 +84,7 @@ function Footer() {
               </div>
               <div className="col-lg-3 ml-auto mb-4 mb-lg-0">
                 <div className="footer-nav-wrap text-white">
-                  <h5 className="mb-3 text-white">Suporte</h5>
+                  <h5 className="mb-3 footer-column text-white">Suporte</h5>
                   <ul className="list-unstyled">
                     <li className="mb-2">
                     <span className="ti-location-pin mr-2"></span>
@@ -114,7 +114,7 @@ function Footer() {
       
               <div className="col-lg-3">
                 <div className="footer-nav-wrap text-white">
-                  <h5 className="mb-3 text-white">Localização</h5>
+                  <h5 className="mb-3 footer-column text-white">Localização</h5>
                   <div className="embed-responsive embed-responsive-4by3">
                     <iframe
                       className="embed-responsive-item"
