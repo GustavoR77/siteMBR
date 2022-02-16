@@ -16,13 +16,13 @@ function HeroSection() {
           <div className="background-video-overly ptb-100 full-screen">
             <div
               className="player"
-              data-property="{videoURL:'https://www.youtube.com/watch?v=zbVuoVLZd6U',containment:'.video-section-wrap', quality:'highres', autoPlay:true, showControls: false, startAt:0, mute:true, opacity: 1}"
+              data-property="{videoURL:'https://www.youtube.com/watch?v=ey2yv2JvhY8',containment:'.video-section-wrap', quality:'highres', autoPlay:true, showControls: false, startAt:0, mute:true, opacity: 1}"
             ></div>
             <div className="container">
               <div className="row align-items-center justify-content-center">
                 <div className="col-md-8 col-lg-7">
                   <div className="hero-content-left text-white text-center mt-5 ptb-100">
-                    <h1 className="display-1 text-white">MBR</h1>
+                    {/* <h1 className="display-1 text-white">MBR</h1> */}
                     <p className="lead">Há 25 anos inovando a educação com o melhor da tecnologia para gerar uma experiência de aprendizagem única </p>
 
                     <a
@@ -35,7 +35,7 @@ function HeroSection() {
                 </div>
               </div>
 
-              <div className="row justify-content-between d-flex align-content-end flex-wrap">
+              <div className="row justify-content-between d-flex align-content-end flex-wrap mt-5">
                 <div className="col-md-12 ">
                   <div className="client-section-wrap d-flex flex-row align-items-center">
                     <p className="lead mr-5 mb-0 text-white">

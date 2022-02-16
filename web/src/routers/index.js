@@ -26,6 +26,7 @@ import Blog from "../themes/blog";
 import BlogLeft from "../themes/blogLeft";
 import BlogRight from "../themes/blogRight";
 import Homepage from "../themes/homepage";
+import MagicClub from "../themes/magic-club";
 
 function Routes() {
   return (
@@ -33,6 +34,7 @@ function Routes() {
       <Router>
         <Switch>
           <Route exact path="/" component={Theme5} />
+          <Route exact path="/magic-club" component={MagicClub} />
           {/* <Route exact path="/theme1" component={Theme1} />
           <Route exact path="/theme2" component={Theme2} />
           <Route exact path="/theme3" component={Theme3} />
