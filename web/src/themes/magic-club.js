@@ -9,6 +9,8 @@ import Activities from "../components/MagicClub/Activities";
 import Materials from "../components/MagicClub/Materials";
 import Gamefication from "../components/MagicClub/Gamefication";
 import Screenshots from "../components/MagicClub/Screenshots";
+import Personalization from "../components/MagicClub/Personalization";
+import Capacitation from "../components/MagicClub/Capacitation";
 import FooterSection from "../components/Footer";
 
 class MagicClub extends Component {
@@ -25,6 +27,8 @@ class MagicClub extends Component {
           <Materials />
           <Gamefication />
           <Screenshots />
+          <Personalization />
+          <Capacitation />
         </div>
         <FooterSection noSubscription={true} />
       </>
