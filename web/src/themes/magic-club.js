@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Header from "../components/Header/header";
+import Header from "../components/Header/header-magic-club";
 import HeroSection from "../components/HeroSection/HeroSectionMagicClub";
 import AboutSection from "../components/AboutUs/AboutMagicClub";
 import Books from "../components/MagicClub/Books"
@@ -20,7 +20,7 @@ class MagicClub extends Component {
         <Header />
         <div className="main">
           <HeroSection />
-          <AboutSection />
+          <AboutSection background="gray-light-bg"/>
           <Books />
           <Projects />
           <Activities />

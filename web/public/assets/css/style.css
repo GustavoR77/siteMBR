@@ -191,6 +191,15 @@ strong, b{
     padding-left: .875em;
     border-radius: 50rem;
 }
+
+.magic-club-font{
+    font-family: 'Londrina Solid', cursive;
+}
+
+.magic-club-subtitle {
+    color: #F5C037;    
+}
+
 /*========================================
         03. PRE DEFINE CLASS CSS
 ==========================================*/
@@ -569,6 +578,16 @@ select.form-control.has-value{
 }
 .bg-transparent.affix{
     background-image: linear-gradient(to right, #142333, #27415d, #3e6b9a, #5899dd, #3e6b9a, #27415d, #142333) !important;
+}
+.bg-menu-magicclub ul li a{
+    color: #ffffff;
+    opacity: 0.8;
+}
+.bg-menu-magicclub ul li a:hover, .white-bg.affix ul li a:hover{
+    opacity: 1;
+}
+.bg-menu-magicclub.affix{
+    background-color: #FD6C34;
 }
 .navbar{
     transition: all .3s ease-in-out;
@@ -1410,6 +1429,19 @@ select.form-control.has-value{
     }
 }
 
+.magicclub-section-wrap{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.magicclub-section-wrap .magicclub-section-overly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /*hero background video css*/
 
@@ -1925,6 +1957,21 @@ select.form-control.has-value{
     content: '';
     background-image: linear-gradient(to right, rgba(20, 35, 51, 0.55), rgba(39, 65, 93, 0.55), rgba(62, 107, 154, 0.50), rgba(88, 153, 221, 0.55));
     
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.background-img-magicclub{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.background-img-magicclub:before{
+    position: absolute;
+    content: '';  
     width: 100%;
     height: 100%;
     top: 0;
