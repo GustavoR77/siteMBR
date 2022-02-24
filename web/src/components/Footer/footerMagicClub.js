@@ -4,20 +4,17 @@ function Footer() {
 
   return (
     <>
-      <section>
+      <section
+        className="p-5"
+        style={{
+          backgroundImage: "url('img/games/magic-club/background-red.png')",
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: '100% 100%',
+        }}
+      >
         <footer className="footer-section text-center">
-          <div
-            className=
-            'footer-top background-img-2 py-5 pt-150 pb-5 '
-
-            style={{
-              backgroundImage:
-                "url('img/logo_mbr_tecnologia_educacional.png')",
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'center top',
-              backgroundSize: 'cover',
-            }}
-          >
+  
             <div className="container ">
               <div className="row justify-content-between ">
                 <div className="col-lg-3 mb-3 mb-lg-0 ">
@@ -138,7 +135,7 @@ function Footer() {
               </div>
             </div>
           </div> */}
-          </div>
+ 
 
 
         </footer>

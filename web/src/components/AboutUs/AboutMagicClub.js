@@ -12,7 +12,7 @@ function About(props) {
               <div className="about-content-left section-heading">
                 <h2 className='text-dark magic-club-font'>SISTEMA BILÍNGUE</h2>
                 <h2 className='magic-club-subtitle magic-club-font'>MAGIC CLUB</h2>
-                <p className='text-dark'>
+                <p className='text-dark lead'>
                   O MAGIC CLUB é um Sistema de Ensino Bilíngue para alunos dos anos iniciais do Ensino Fundamental, desenvolvido pela MBR Tecnologia Educacional, uma EdTech com 23 anos de atuação no mercado
                   educacional brasileiro e em outros 12 países.
 

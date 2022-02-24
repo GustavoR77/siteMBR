@@ -5,16 +5,25 @@ function Books(props) {
   const background = props
   return (
     <>
-      <section
+      {/* <section
         id="screenshots"
         className={"screenshots-section ptb-100 " + background}
+      > */}
+      <section
+        className="screenshots-section ptb-100 "
+        style={{
+          backgroundImage: "url('img/games/magic-club/background-blue.png')",
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: '100% 100%',
+        }}
       >
-        <div className="container">
+        <div className="container magic-club-font">
           <div className="row justify-content-center">
             <div className="col-md-8">
               <div className="section-heading text-center">
-                <h2>
-                  LIVROS DIDÁTICOS
+                <h2 className="magic-club-font">
+                  LIVROS <strong className="magic-club-font magic-club-subtitle">DIDÁTICOS</strong>
                   <br />
                 </h2>
                 <p className="lead">
@@ -23,11 +32,11 @@ function Books(props) {
                   Normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.
                 </p>
                 <p>
-                <img
+                  <img
                     src="img/games/magic-club/books.png"
                     alt="Books"
                     className="img-fluid"
-                  />   
+                  />
                 </p>
               </div>
             </div>

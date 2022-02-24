@@ -7,13 +7,13 @@ function Screenshots(props) {
     <>
       <section
         id="screenshots"
-        className={"screenshots-section ptb-100 " + background}
+        className={"screenshots-section ptb-100 " + background.background}
       >
-        <div className="container">
+        <div className="container magic-club-font">
           <div className="row justify-content-center">
             <div className="col-md-8">
               <div className="section-heading text-center">
-                <h2>
+                <h2 className="magic-club-font magic-club-subtitle">
                   CAPTURAS DE TELA
                   <br />
                 </h2>

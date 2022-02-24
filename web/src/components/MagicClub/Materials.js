@@ -7,17 +7,17 @@ function Projects(props) {
     <>
       <section
         id="screenshots"
-        className={"screenshots-section ptb-100 " + background}
+        className={"screenshots-section ptb-100 " + background.background}
       >
-        <div className="container">
+        <div className="container magic-club-font">
           <div className="row justify-content-center">
             <div className="col-md-8">
               <div className="section-heading text-center">
-                <h2>
+                <h2 className="magic-club-subtitle magic-club-font">
                   MATERIAIS INTERATIVOS PARA LOUSAS DIGITAIS
                   <br />
                 </h2>
-                <p className="lead">
+                <p className="lead text-dark">
                   Programa exclusivo para levar
                   interatividade total à sala de aula. Com áudios gravados por nativos e todos os recursos que garantem uma experiência única aos alunos.
                 </p>

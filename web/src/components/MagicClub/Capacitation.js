@@ -5,13 +5,13 @@ function Capacitation(props) {
 
   return (
     <>
-      <section id="about" className={'about-us ptb-100 ' + background}>
-        <div className="container">
+      <section id="about" className={'about-us ptb-100 ' + background.background}>
+        <div className="container magic-club-font text-dark">
           <div className="row align-items-center justify-content-between">
             <div className="col-md-6">
               <div className="about-content-left section-heading">
-                <h2>CAPACITAÇÃO COMPLETA</h2>
-                <p>
+                <h2 className='magic-club-font magic-club-subtitle'>CAPACITAÇÃO COMPLETA</h2>
+                <p className='lead'>
                   Treinamos os professores para que compreendam melhor o bilinguismo e possam aproveitar ao máximo nossa metodologia.
                 </p>
                 <p>
@@ -32,10 +32,10 @@ function Capacitation(props) {
                 />
               </div>
               <div className="about-content-right ml-5">
-                <p>Vídeos tutoriais de preparação de
+                <p className='lead'>Vídeos tutoriais de preparação de
                   aulas que explicam, aula a aula, o que
                   o professor deve fazer.</p>
-                <p>Assistência pedagógica completa
+                <p className='lead'>Assistência pedagógica completa
                   disponibilizada por diversos canais
                   para auxiliar em todo o processo de
                   implantação e, após esse momento, no

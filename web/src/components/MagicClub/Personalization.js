@@ -5,13 +5,21 @@ function Personalization(props) {
 
   return (
     <>
-      <section id="about" className={'about-us ptb-100 ' + background}>
-        <div className="container">
+      <section
+        className="screenshots-section ptb-100 "
+        style={{
+          backgroundImage: "url('img/games/magic-club/background-darkblue.png')",
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: '100% 100%',
+        }}
+      >
+        <div className="container magic-club-font">
           <div className="row align-items-center justify-content-between">
             <div className="col-md-6">
               <div className="about-content-left section-heading">
-                <h2>PERSONALIZAÇÃO</h2>
-                <p>
+                <h2 className='magic-club-font magic-club-subtitle'>PERSONALIZAÇÃO</h2>
+                <p className="lead">
                   Personalizamos a carga horária e a capa do material com o logotipo de sua cidade e nome do projeto educativo quando houver.
                 </p>
                 <p>

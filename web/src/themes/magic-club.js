@@ -11,7 +11,7 @@ import Gamefication from "../components/MagicClub/Gamefication";
 import Screenshots from "../components/MagicClub/Screenshots";
 import Personalization from "../components/MagicClub/Personalization";
 import Capacitation from "../components/MagicClub/Capacitation";
-import FooterSection from "../components/Footer";
+import FooterSection from "../components/Footer/footerMagicClub";
 
 class MagicClub extends Component {
   render() {
@@ -22,13 +22,13 @@ class MagicClub extends Component {
           <HeroSection />
           <AboutSection background="gray-light-bg"/>
           <Books />
-          <Projects />
+          <Projects background="gray-light-bg"/>
           <Activities />
-          <Materials />
+          <Materials background="gray-light-bg"/>
           <Gamefication />
-          <Screenshots />
+          <Screenshots background="gray-light-bg"/>
           <Personalization />
-          <Capacitation />
+          <Capacitation background="gray-light-bg"/>
         </div>
         <FooterSection noSubscription={true} />
       </>
