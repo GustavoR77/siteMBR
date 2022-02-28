@@ -20,15 +20,15 @@ class MagicClub extends Component {
         <Header />
         <div className="main">
           <HeroSection />
-          <AboutSection background="gray-light-bg"/>
+          <AboutSection background="white-bg"/>
           <Books />
-          <Projects background="gray-light-bg"/>
+          <Projects background="white-bg"/>
           <Activities />
-          <Materials background="gray-light-bg"/>
+          <Materials background="white-bg"/>
           <Gamefication />
-          <Screenshots background="gray-light-bg"/>
+          <Screenshots background="white-bg"/>
           <Personalization />
-          <Capacitation background="gray-light-bg"/>
+          <Capacitation background="white-bg"/>
         </div>
         <FooterSection noSubscription={true} />
       </>

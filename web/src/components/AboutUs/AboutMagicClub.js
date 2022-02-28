@@ -1,4 +1,5 @@
 import React from 'react'
+import Wave from 'react-wavify'
 
 function About(props) {
   const background = props
@@ -44,6 +45,7 @@ function About(props) {
             </div>
           </div>
         </div>
+
       </section>
     </>
   )

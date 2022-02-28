@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import _data from "../../data";
+import Wave from 'react-wavify'
 
 function Gamefication(props) {
   const background = props
@@ -8,12 +8,13 @@ function Gamefication(props) {
       <section
         className="screenshots-section ptb-100 "
         style={{
-          backgroundImage: "url('img/games/magic-club/background-purple.png')",
+          backgroundImage: "url('img/games/magic-club/background-purple2.png')",
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
           backgroundSize: '100% 100%',
         }}
       >
+        
         <div className="container magic-club-font">
           <div className="row justify-content-center">
             <div className="col-md-8">
