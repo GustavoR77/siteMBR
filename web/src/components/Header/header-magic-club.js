@@ -4,7 +4,7 @@ function Header() {
     return (
       <>
         <header className="header">
-          <nav className="navbar navbar-expand-lg fixed-top bg-menu-magicclub">
+          <nav className="navbar navbar-magicclub navbar-expand-lg fixed-top bg-menu-magicclub">
             <div className="container">
               <a className="navbar-brand" href="/">
                 <img

@@ -8,10 +8,10 @@ function Gamefication(props) {
       <section
         className="screenshots-section ptb-100 "
         style={{
-          backgroundImage: "url('img/games/magic-club/background-purple2.png')",
+          backgroundImage: "url('img/games/magic-club/background-purple.png')",
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
-          backgroundSize: '100% 100%',
+          backgroundSize: '100% 110%',
         }}
       >
         

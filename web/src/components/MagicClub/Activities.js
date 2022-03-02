@@ -30,6 +30,9 @@ function Activities(props) {
                   And 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                 <p>
                   <img
+                  style={{
+                    
+                  }}
                     src="img/games/magic-club/activities.png"
                     alt="Iris"
                     className="img-fluid"

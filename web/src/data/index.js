@@ -176,6 +176,8 @@ module.exports = {
       'img/prefeituras/prefeitura_laranjal_paulista_sp.png',
       'img/prefeituras/prefeitura_sao_bento_pb.png',
       'img/prefeituras/prefeitura_tiete_sp.png',
+      'img/prefeituras/prefeitura_conchal.png',
+      'img/prefeituras/prefeitura_manaira.png',
     ],
   },
 

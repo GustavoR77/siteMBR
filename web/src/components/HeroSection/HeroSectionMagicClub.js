@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
+
+{/* const [width, setWidth] = useState(window.innerWidth) */}
 
 function HeroSection() {
   return (
@@ -6,10 +8,10 @@ function HeroSection() {
       <section
         className="hero-section background-img-magicclub"
         style={{
-          backgroundImage: "url('img/games/magic-club/BG-magic-club.png')",
+          backgroundImage: "url('img/games/magic-club/BG-magic-club-mobile.png')",
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center center',
-          backgroundSize: '100% 100%',
+          backgroundPosition: 'center center',          
+          backgroundSize: 'cover',
         }}
       >
         <div className="magicclub-section-wrap">

@@ -197,7 +197,7 @@ jQuery(function ($) {
         autoplay: true,
         loop: true,
         margin:15,
-        dots:true,
+        dots:false,
         slideTransition:'linear',
         autoplayTimeout:4500,
         autoplayHoverPause:true,
