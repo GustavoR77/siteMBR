@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import Header from "../components/Header/header";
 import HeroSection from "../components/HeroSection/HeroSection5";
 import PromoSection from "../components/PromoSection/Promo2";
