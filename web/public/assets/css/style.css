@@ -141,7 +141,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2.441em;
+    font-size: 2.441em; 
+}
+
+.h2-mobile-magicclub {
+    font-size: 1.5em !important; 
 }
 
 h3 {
@@ -2169,7 +2173,6 @@ select.form-control.has-value {
     position: absolute;
     content: '';
     background-image: linear-gradient(to right, rgba(20, 35, 51, 0.55), rgba(39, 65, 93, 0.55), rgba(62, 107, 154, 0.50), rgba(88, 153, 221, 0.55));
-
     width: 100%;
     height: 100%;
     top: 0;
@@ -2178,21 +2181,58 @@ select.form-control.has-value {
 
 .background-img-magicclub {
     position: relative;
-    width: 100%;
-    display: block;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../img/games/magic-club/BG-magic-club-mobile3.png');
+    min-height: 70vh;
+    
 }
 
 .background-img-magicclub:before {
-    position: absolute;
     content: '';
-    width: 100%;
-    height: 100%;
+    position: absolute;
     top: 0;
     left: 0;
-    background-image: url('../../img/games/magic-club/BG-magic-club.png');
+    height: 100%;
+    width: 100%;
+    
+        
+    background-image: url('../../img/games/magic-club/BG-magic-club-mobile3.png');
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: center center;
-    background-size: cover;
+    min-height: 70vh;
+}
+
+/* next size - tablet */
+@media (min-width: 768px) {
+    .background-img-magicclub {
+        position: relative;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../../img/games/magic-club/BG-magic-club-mobile.png');
+        min-height: 100vh;
+    }
+
+    .background-img-magicclub:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;    
+        background-image: url('../../img/games/magic-club/BG-magic-club-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 100vh;
+    }
 }
 
 .video-promo-content {

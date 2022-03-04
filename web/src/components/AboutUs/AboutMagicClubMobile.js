@@ -1,22 +1,25 @@
 import React, { useState, useEffect } from 'react'
 
-import AboutMagicClubMobile from './AboutMagicClubMobile'
-
-function About(props) {
+function AboutMagicClubMobile(props) {
   const background = props
   
   const [width, setWidth] = useState(window.innerWidth)
 
   return (
     <>
-      <section id="about" className={'about-us ptb-100 ' + background.background}>
-      {width > 768 ?
         <div className="container magic-club-font">
           <div className="row align-items-center justify-content-between">
             <div className="col-md-6">
-              <div className="about-content-left section-heading">
+              <div className="section-heading text-center h2-mobile-magicclub">
                 <h2 className='text-dark magic-club-font'>SISTEMA BILÍNGUE</h2>
                 <h2 className='magic-club-subtitle magic-club-font'>MAGIC CLUB</h2>
+                <div className="about-content-right">
+                <img
+                  src="img/games/magic-club/about.png"
+                  alt="about us"
+                  className="img-fluid"
+                />
+              </div>
                 <p className='text-dark lead'>
                   O MAGIC CLUB é um Sistema de Ensino Bilíngue para alunos dos anos iniciais do Ensino Fundamental, desenvolvido pela MBR Tecnologia Educacional, uma EdTech com 23 anos de atuação no mercado
                   educacional brasileiro e em outros 12 países.
@@ -39,22 +42,12 @@ function About(props) {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="about-content-right ml-5">
-                <img
-                  src="img/games/magic-club/about.png"
-                  alt="about us"
-                  className="img-fluid"
-                />
-              </div>
+     
             </div>
           </div>
-        </div> :
-        <AboutMagicClubMobile />
-      }
-
-      </section>
+        </div>
     </>
   )
 }
 
-export default About
+export default AboutMagicClubMobile

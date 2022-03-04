@@ -7,15 +7,10 @@ function HeroSection() {
     <>
       <section
         className="hero-section background-img-magicclub"
-        style={{
-          backgroundImage: "url('img/games/magic-club/BG-magic-club-mobile.png')",
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center center',          
-          backgroundSize: 'cover',
-        }}
+
       >
         <div className="magicclub-section-wrap">
-          <div className="magicclub-section-overly ptb-100 full-screen">
+          <div className="magicclub-section-overly ptb-100">
             <div
               className="player"
               data-property="{videoURL:'',containment:'.magicclub-section-wrap', quality:'highres', autoPlay:true, showControls: false, startAt:0, mute:true, opacity: 1}"

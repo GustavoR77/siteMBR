@@ -3,17 +3,7 @@ import React, { useState } from "react";
 function Gamefication(props) {
   const background = props
   return (
-    <>
-      <section
-        className="screenshots-section ptb-100 "
-        style={{
-          backgroundImage: "url('img/games/magic-club/background-purple.png')",
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center center',
-          backgroundSize: '100% 110%',
-        }}
-      >
-        
+    <>        
         <div className="container magic-club-font">
           <div className="row justify-content-center">
             <div className="col-md-8">
@@ -35,9 +25,7 @@ function Gamefication(props) {
               </div>
             </div>
           </div>
-
         </div>
-      </section>
     </>
   );
 }

@@ -1,22 +1,17 @@
 import React, { useState } from "react";
 import _data from "../../data";
-import ProjectsMobile from "./ProjectsMobile";
 
-function Projects(props) {
+
+function ProjectsMobile(props) {
   const background = props
   const [width, setWidth] = useState(window.innerWidth)
 
   return (
     <>
-      <section
-        id="screenshots"
-        className={"screenshots-section ptb-100 " + background.background}
-      >
-        {width > 768 ?
         <div className="container magic-club-font">
           <div className="row justify-content-center">
             <div className="col-md-8">
-              <div className="section-heading text-center">
+              <div className="section-heading text-center h2-mobile-magicclub">
                 <h2 className="magic-club-subtitle magic-club-font ">
                   PROJETOS INTERDISCIPLINARES
                   <br />
@@ -26,7 +21,7 @@ function Projects(props) {
 
                   Also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem.
                 </p>
-                <p>       
+                <p>
                   <img
                     src="img/games/magic-club/projects-mobile.png"
                     alt="Livro"
@@ -36,11 +31,9 @@ function Projects(props) {
               </div>
             </div>
           </div>
-        </div> :
-        <ProjectsMobile />}
-      </section>
+        </div>
     </>
   );
 }
 
-export default Projects;
+export default ProjectsMobile;

@@ -1,26 +1,15 @@
 import React, { useState } from "react";
 import _data from "../../data";
-import ActivitiesMobile from "./ActivitiesMobile";
 
-function Activities(props) {
+function ActivitiesMobile(props) {
   const background = props
   const [width, setWidth] = useState(window.innerWidth)
   return (
     <>
-      <section
-        className="screenshots-section ptb-100 "
-        style={{
-          backgroundImage: "url('img/games/magic-club/background-green.png')",
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center center',
-          backgroundSize: '100% 100%',
-        }}
-      >
-        {width > 768 ? 
         <div className="container magic-club-font">
           <div className="row justify-content-center">
             <div className="col-md-8">
-              <div className='section-heading text-center'>
+              <div className='section-heading text-center h2-mobile-magicclub'>
                 <h2 className="magic-club-font">
                   ATIVIDADES <strong className="magic-club-font magic-club-subtitle">LÚDICAS</strong>
                   <br />
@@ -44,11 +33,9 @@ function Activities(props) {
               </div>
             </div>
           </div>
-
-        </div> : <ActivitiesMobile/>}
-      </section>
+        </div> 
     </>
   );
 }
 
-export default Activities;
+export default ActivitiesMobile;
