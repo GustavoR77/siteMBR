@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-function Gamefication(props) {
+function GameficationMobile(props) {
   const background = props
   return (
     <>        
         <div className="container magic-club-font">
           <div className="row justify-content-center">
             <div className="col-md-8">
-              <div className="section-heading text-center">
+              <div className="section-heading text-center h2-mobile-magicclub">
                 <h2 className="magic-club-font magic-club-subtitle">
                   GAMEFICAÇÃO
                   <br />
@@ -30,4 +30,4 @@ function Gamefication(props) {
   );
 }
 
-export default Gamefication;
+export default GameficationMobile;
