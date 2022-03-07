@@ -25,7 +25,7 @@ function Books(props) {
           <div className="container magic-club-font">
             <div className="row justify-content-center">
               <div className="col-md-8">
-                <div className="section-heading text-center ">
+                <div className="section-heading text-center">
                   <h2 className="magic-club-font ">
                     LIVROS <strong className="magic-club-font magic-club-subtitle">DIDÁTICOS</strong>
                     <br />

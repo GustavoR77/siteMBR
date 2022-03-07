@@ -16,7 +16,7 @@ function HeroSection() {
           <div className="background-video-overly ptb-100 full-screen">
             <div
               className="player"
-              data-property="{videoURL:'https://www.youtube.com/watch?v=ey2yv2JvhY8',containment:'.video-section-wrap', quality:'highres', autoPlay:true, showControls: false, startAt:0, mute:true, opacity: 1}"
+              data-property="{videoURL:'https://www.youtube.com/watch?v=F3ErDOkg2H0',containment:'.video-section-wrap', quality:'highres', autoPlay:true, showControls: false, startAt:0, mute:true, opacity: 1}"
             ></div>
             <div className="container">
               <div className="row align-items-center justify-content-center">

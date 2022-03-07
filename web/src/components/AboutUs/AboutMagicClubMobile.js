@@ -13,7 +13,7 @@ function AboutMagicClubMobile(props) {
               <div className="section-heading text-center h2-mobile-magicclub">
                 <h2 className='text-dark magic-club-font'>SISTEMA BILÍNGUE</h2>
                 <h2 className='magic-club-subtitle magic-club-font'>MAGIC CLUB</h2>
-                <div className="about-content-right">
+                <div className="about-content-right mt-5">
                 <img
                   src="img/games/magic-club/about.png"
                   alt="about us"
