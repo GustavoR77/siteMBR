@@ -2179,7 +2179,7 @@ select.form-control.has-value {
     left: 0;
 }
 
-.background-img-magicclub {
+.background-img-magicclub, .background-img-alt {
     position: relative;
     width: auto;
     height: auto;
@@ -2187,19 +2187,20 @@ select.form-control.has-value {
     justify-content: center;
     align-items: center;
     background-image: url('../../img/games/magic-club/BG-magic-club-mobile3.png');
-    min-height: 70vh;
-    
+    min-height: 70vh;    
 }
 
-.background-img-magicclub:before {
+.background-img-alt {
+    background-image: url('../../img/games/alt/background.png') !important;
+}
+
+.background-img-magicclub:before, .background-img-alt:before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
-    
-        
+    width: 100%;   
     background-image: url('../../img/games/magic-club/BG-magic-club-mobile3.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -2207,9 +2208,13 @@ select.form-control.has-value {
     min-height: 70vh;
 }
 
+.background-img-alt::before {
+    background-image: url('../../img/games/alt/background.png') !important;
+}
+
 /* next size - tablet */
 @media (min-width: 768px) {
-    .background-img-magicclub {
+    .background-img-magicclub, .background-img-alt {
         position: relative;
         width: auto;
         height: auto;
@@ -2219,8 +2224,11 @@ select.form-control.has-value {
         background-image: url('../../img/games/magic-club/BG-magic-club-mobile.png');
         min-height: 100vh;
     }
+    .background-img-alt {
+        background-image: url('../../img/games/alt/background.png') !important;
+    }
 
-    .background-img-magicclub:before {
+    .background-img-magicclub:before, .background-img-alt:before {
         content: '';
         position: absolute;
         top: 0;
@@ -2232,6 +2240,10 @@ select.form-control.has-value {
         background-size: cover;
         background-position: center center;
         min-height: 100vh;
+    }
+
+    .background-img-alt:before {
+        background-image: url('../../img/games/alt/background.png') !important;
     }
 }
 

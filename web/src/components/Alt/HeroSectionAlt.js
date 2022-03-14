@@ -6,7 +6,10 @@ function HeroSection() {
   return (
     <>
       <section
-        className="hero-section background-img-magicclub"
+        className="hero-section background-img-alt"
+        style={{
+          backgroundImage: "url('img/games/alt/background.png')",
+        }}
 
       >
         <div className="magicclub-section-wrap">

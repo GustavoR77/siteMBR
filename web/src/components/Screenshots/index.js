@@ -27,28 +27,34 @@ function Screenshots(props) {
             <div className=""></div>
             <div className="screen-carousel owl-carousel owl-theme dot-indicator">
               <div className="screen-carousel-single">
-                <img
-                  src="img/games/alt.png"
-                  className="img-fluid"
-                  alt="screenshots"
-                  width="600"
-                />
+                <a className="" href="/alt">
+                  <img
+                    src="img/games/alt.png"
+                    className="img-fluid"
+                    alt="screenshots"
+                    width="600"
+                  />
+                </a>
               </div>
               <div className="screen-carousel-single">
-                <img
-                  src="img/games/kubets.png"
-                  className="img-fluid"
-                  alt="screenshots"
-                  width="600"
-                />
+                <a className="" href="/kubets">
+                  <img
+                    src="img/games/kubets.png"
+                    className="img-fluid"
+                    alt="screenshots"
+                    width="600"
+                  />
+                </a>
               </div>
               <div className="screen-carousel-single">
-                <img
-                  src="img/games/melhor-viagem.png"
-                  className="img-fluid"
-                  alt="screenshots"
-                  width="600"
-                />
+                <a className="" href="/melhor-viagem">
+                  <img
+                    src="img/games/melhor-viagem.png"
+                    className="img-fluid"
+                    alt="screenshots"
+                    width="600"
+                  />
+                </a>
               </div>
               <div className="screen-carousel-single product-single">
                 <a className="" href="/magic-club">
