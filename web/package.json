@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://mbr.net.br/new/",
   "dependencies": {
+    "eslint-plugin-import": "^2.25.4",
     "react": "^16.14.0",
     "react-bootstrap": "^2.1.0",
     "react-dom": "^16.8.0",

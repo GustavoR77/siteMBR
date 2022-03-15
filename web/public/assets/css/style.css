@@ -267,6 +267,10 @@ strong, b {
     background: #ffffff;
 }
 
+.cream-bg {
+    background: #FCE4D0;
+}
+
 .bg-color-1 {
     background: #399fb6;
 }
@@ -631,12 +635,12 @@ select.form-control.has-value {
     opacity: 1;
 }
 
-.bg-transparent ul li a {
+.bg-transparent ul li a, .bg-menu-magicclub ul li a {
     color: #ffffff;
     opacity: 0.8;
 }
 
-.bg-transparent ul li a:hover, .white-bg.affix ul li a:hover {
+.bg-transparent ul li a:hover, .white-bg.affix ul li a:hover, .bg-menu-magicclub ul li a:hover, .white-bg.affix ul li a:hover {
     opacity: 1;
 }
 
@@ -644,17 +648,12 @@ select.form-control.has-value {
     background-image: linear-gradient(to right, #142333, #27415d, #3e6b9a, #5899dd, #3e6b9a, #27415d, #142333) !important;
 }
 
-.bg-menu-magicclub ul li a {
-    color: #ffffff;
-    opacity: 0.8;
-}
-
-.bg-menu-magicclub ul li a:hover, .white-bg.affix ul li a:hover {
-    opacity: 1;
-}
-
 .bg-menu-magicclub.affix {
     background-color: #FD6C34;
+}
+
+.bg-menu-alt.affix {
+    background-color: #EE8FA3;
 }
 
 .navbar {
@@ -664,6 +663,10 @@ select.form-control.has-value {
 @media (min-width: 320px) and (max-width: 992px) {
     .navbar-magicclub {
         background-color: #FD6C34;
+    }
+
+    .navbar-alt {
+        background-color: #EE8FA3;
     }
 
     .white-bg.affix, .custom-nav.affix, .navbar.white-bg {
@@ -726,6 +729,10 @@ select.form-control.has-value {
 .product-row {
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+.ml9 {
+    margin-left: 9rem;
 }
 
 .intro-video {

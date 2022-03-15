@@ -34,7 +34,7 @@ function About(props) {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="about-content-right ml-5">
+                <div className="about-content-right" style={{marginLeft:"9rem"}}>
                   <img
                     src="img/games/alt/about.png"
                     alt="about us"

@@ -11,7 +11,7 @@ function Footer() {
       <section
         className="p-5"
         style={{
-          backgroundImage: "url('img/games/magic-club/background-red.png')",
+          backgroundImage: "url('img/games/alt/background-footer.png')",
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
           backgroundSize: '100% 100%',
