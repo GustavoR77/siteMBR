@@ -311,8 +311,8 @@ b {
 }
 
 .project-font {
-  font-family: 'Montserrat', sans-serif !important;
-  font-weight: 500; 
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500;
 }
 
 .magic-club-subtitle {
@@ -372,6 +372,10 @@ b {
 
 .light-blue {
   color: #009ee3;
+}
+
+.kubets-blue {
+  color: #364387;
 }
 
 .white-bg {
@@ -783,6 +787,10 @@ select.form-control.has-value {
 
 .bg-menu-alt.affix {
   background-color: #ee8fa3;
+}
+
+.bg-menu-kubets.affix {
+  background-color: #002058;
 }
 
 .navbar {
@@ -2354,7 +2362,8 @@ select.form-control.has-value {
 }
 
 .background-img-magicclub,
-.background-img-alt {
+.background-img-alt,
+.background-img-kubets {
   position: relative;
   width: auto;
   height: auto;
@@ -2369,8 +2378,13 @@ select.form-control.has-value {
   background-image: url("../../img/games/alt/background-mobile.png") !important;
 }
 
+.background-img-kubets {
+  background-image: url("../../img/games/kubets/background.png") !important;
+}
+
 .background-img-magicclub:before,
-.background-img-alt:before {
+.background-img-alt:before,
+.background-img-kubets:before {
   content: "";
   position: absolute;
   top: 0;
@@ -2388,10 +2402,15 @@ select.form-control.has-value {
   background-image: url("../../img/games/alt/background-mobile.png") !important;
 }
 
+.background-img-kubets::before {
+  background-image: url("../../img/games/kubets/background.png") !important;
+}
+
 /* next size - tablet */
 @media (min-width: 768px) {
   .background-img-magicclub,
-  .background-img-alt {
+  .background-img-alt,
+  .background-img-kubets {
     position: relative;
     width: auto;
     height: auto;
@@ -2404,9 +2423,13 @@ select.form-control.has-value {
   .background-img-alt {
     background-image: url("../../img/games/alt/background.png") !important;
   }
+  .background-img-kubets {
+    background-image: url("../../img/games/kubets/background.png") !important;
+  }
 
   .background-img-magicclub:before,
-  .background-img-alt:before {
+  .background-img-alt:before,
+  .background-img-kubets:before {
     content: "";
     position: absolute;
     top: 0;
@@ -2422,6 +2445,9 @@ select.form-control.has-value {
 
   .background-img-alt:before {
     background-image: url("../../img/games/alt/background.png") !important;
+  }
+  .background-img-kubets:before {
+    background-image: url("../../img/games/kubets/background.png") !important;
   }
 }
 

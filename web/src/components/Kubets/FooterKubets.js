@@ -9,9 +9,9 @@ function Footer() {
   return (
     <>
       <section
-        className="p-5"
+        className="p-5 white-bg"
         style={{
-          backgroundImage: "url('img/games/magic-club/background-red.png')",
+          backgroundImage: "url('img/games/kubets/background-footer.png')",
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
           backgroundSize: '100% 100%',
