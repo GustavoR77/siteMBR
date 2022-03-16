@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-import AboutMagicClubMobile from './AboutAltMobile'
+import AboutAltMobile from './AboutAltMobile'
 
 function About(props) {
   const background = props
@@ -44,7 +44,7 @@ function About(props) {
               </div>
             </div>
           </div> :
-          <AboutMagicClubMobile />
+          <AboutAltMobile />
         }
 
       </section>

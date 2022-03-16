@@ -9,7 +9,7 @@ function Footer() {
   return (
     <>
       <section
-        className="p-5"
+        className="p-5 white-bg"
         style={{
           backgroundImage: "url('img/games/alt/background-footer.png')",
           backgroundRepeat: 'no-repeat',
