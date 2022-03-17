@@ -19,16 +19,16 @@ function Step1(props) {
         }}
       >
         {width > 768 ? (
-          <div className="container magic-club-font">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-md-6">
-                <div className="about-content-left section-heading">
-                  <p className="lead">
+          <div className="container">
+            <div className="row align-items-center justify-content-around px-5">
+              <div className="col-md-5">
+                <div className="about-content-left section-heading text-center">
+                  <p className="lead project-font lh-base">
                     Visando a educação plena do estudante, o jogo instiga o
                     desenvolvimento de outras competências, como disciplina,
                     higiene, saúde, gestão do lar e administração das finanças.
                   </p>
-                  <p className="text-center">
+                  <p className="">
                     <img
                       src="img/games/kubets/step1.png"
                       alt="about us"
@@ -37,17 +37,12 @@ function Step1(props) {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div
-                  className="about-content-right"
-                  style={{ marginLeft: "9rem" }}
-                >
+              <div className="col-md-5">
                   <img
                     src="img/games/kubets/quarto.png"
                     alt="about us"
                     className="img-fluid"
                   />
-                </div>
               </div>
             </div>
           </div>

@@ -27,11 +27,10 @@ function Screenshots(props) {
               </div>
             </div>
             <div className="screen-slider-content mt-5">
-              <div className=""></div>
               <div className="screen-carousel owl-carousel owl-theme dot-indicator">
                 <div className="screen-carousel-single">
                   <img
-                    src="img/games/kubets/screenshot.png"
+                    src="img/games/kubets/kubets.png"
                     className="img-fluid"
                     alt="screenshots"
                     width="600"

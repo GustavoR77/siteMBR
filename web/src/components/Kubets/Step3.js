@@ -19,11 +19,11 @@ function Step3(props) {
         }}
       >
         {width > 768 ? (
-          <div className="container magic-club-font">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-md-6">
+          <div className="container">
+            <div className="row align-items-center justify-content-around px-5">
+              <div className="col-md-5">
                 <div className="about-content-left section-heading">
-                  <p className="lead text-dark lh-lg">
+                  <p className="text-dark lead project-font lh-sm text-center">
                     O software inicia com a alfabetização e vai passando por
                     temas relacionados à língua portuguesa dentro das
                     expectativas que temos na base em relação ao componente de
@@ -31,17 +31,12 @@ function Step3(props) {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div
-                  className="about-content-right"
-                  style={{ marginLeft: "9rem" }}
-                >
+              <div className="col-md-7">
                   <img
                     src="img/games/kubets/step3.png"
                     alt="about us"
                     className="img-fluid"
                   />
-                </div>
               </div>
             </div>
           </div>

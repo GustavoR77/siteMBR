@@ -13,9 +13,9 @@ function Step2(props) {
         className={"about-us ptb-100 " + background.background}
       >
         {width > 768 ? (
-          <div className="container magic-club-font">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-md-6">
+          <div className="container">
+            <div className="row align-items-center justify-content-center px-5">
+              <div className="col-md-5">
                 <div className="about-content-left section-heading">
                   <img
                     src="img/games/kubets/step2.png"
@@ -26,14 +26,13 @@ function Step2(props) {
               </div>
               <div className="col-md-6">
                 <div
-                  className="about-content-right"
-                  style={{ marginLeft: "9rem" }}
+                  className="project-font lead text-dark lh-sm text-center"
                 >
-                  <p className="lead text-dark lh-lg">
-                    O software inicia com a alfabetização e vai passando por
-                    temas relacionados à língua portuguesa dentro das
-                    expectativas que temos na base em relação ao componente de
-                    Língua Portuguesa.
+                  <p>
+                    O aluno vai passar por desafios e a cada desafio vencido ele evolui, mudando de nível.
+                  </p>
+                  <p>
+                    O progresso ocorre dentro de um currículo espiral considerando o conhecimento prévio do aluno.
                   </p>
                 </div>
               </div>
