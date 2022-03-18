@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import AboutAltMobile from "./AboutKubetsMobile";
+import Step2Mobile from "./Step2Mobile";
 
 function Step2(props) {
   const background = props;
@@ -39,7 +39,7 @@ function Step2(props) {
             </div>
           </div>
         ) : (
-          <AboutAltMobile />
+          <Step2Mobile />
         )}
       </section>
     </>

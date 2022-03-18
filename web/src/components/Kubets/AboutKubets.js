@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import AboutAltMobile from "./AboutKubetsMobile";
+import AboutKubetsMobile from "./AboutKubetsMobile";
 
 function About(props) {
   const background = props;
@@ -56,7 +56,7 @@ function About(props) {
             </div>
           </div>
         ) : (
-          <AboutAltMobile />
+          <AboutKubetsMobile />
         )}
       </section>
     </>

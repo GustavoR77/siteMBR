@@ -805,6 +805,10 @@ select.form-control.has-value {
   .navbar-alt {
     background-color: #ee8fa3;
   }
+  
+  .navbar-kubets {
+    background-color: #002058;
+  }
 
   .white-bg.affix,
   .custom-nav.affix,
