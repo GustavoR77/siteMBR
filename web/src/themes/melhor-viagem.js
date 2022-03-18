@@ -1,17 +1,13 @@
 import React, { Component } from "react";
 
-import Header from "../components/MagicClub/HeaderMagicClub";
-import HeroSection from "../components/MagicClub/HeroSectionMagicClub";
-import AboutSection from "../components/MagicClub/AboutMagicClub";
-import Books from "../components/MagicClub/Books"
-import Projects from "../components/MagicClub/Projects";
-import Activities from "../components/MagicClub/Activities";
-import Materials from "../components/MagicClub/Materials";
-import Gamefication from "../components/MagicClub/Gamefication";
-import Screenshots from "../components/MagicClub/Screenshots";
-import Personalization from "../components/MagicClub/Personalization";
-import Capacitation from "../components/MagicClub/Capacitation";
-import FooterSection from "../components/MagicClub/FooterMagicClub";
+import Header from "../components/MelhorViagem/HeaderMelhorViagem";
+import HeroSection from "../components/MelhorViagem/HeroSectionMelhorViagem";
+import AboutSection from "../components/MelhorViagem/AboutMelhorViagem";
+import Step1 from "../components/MelhorViagem/Step1";
+import Step2 from "../components/MelhorViagem/Step2";
+import Step3 from "../components/MelhorViagem/Step3";
+import Screenshots from "../components/MelhorViagem/Screenshots";
+import FooterSection from "../components/MelhorViagem/FooterKubets";
 
 class MelhorViagem extends Component {
   render() {
@@ -20,15 +16,11 @@ class MelhorViagem extends Component {
         <Header />
         <div className="main">
           <HeroSection />
-          <AboutSection background="white-bg"/>
-          <Books />
-          <Projects background="white-bg"/>
-          <Activities />
-          <Materials background="white-bg"/>
-          <Gamefication />
-          <Screenshots background="white-bg"/>
-          <Personalization />
-          <Capacitation background="white-bg"/>
+          <AboutSection background="white-bg" />
+          <Step1 background="white-bg" />
+          <Step2 background="white-bg" />
+          <Step3 background="white-bg" />
+          <Screenshots background="white-bg" />
         </div>
         <FooterSection noSubscription={true} />
       </>

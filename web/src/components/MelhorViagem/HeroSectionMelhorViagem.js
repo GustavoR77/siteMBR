@@ -1,14 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
-{/* const [width, setWidth] = useState(window.innerWidth) */}
+{
+  /* const [width, setWidth] = useState(window.innerWidth) */
+}
 
 function HeroSection() {
   return (
     <>
-      <section
-        className="hero-section background-img-magicclub"
-
-      >
+      <section className="hero-section background-img-melhorviagem">
         <div className="magicclub-section-wrap">
           <div className="magicclub-section-overly ptb-100">
             <div
@@ -17,17 +16,11 @@ function HeroSection() {
             ></div>
             <div className="container">
               <div className="row align-items-center justify-content-center">
-                <div className="col-md-8 col-lg-7">
-
-                </div>
+                <div className="col-md-8 col-lg-7"></div>
               </div>
-
               <div className="row justify-content-between d-flex align-content-end flex-wrap mt-5">
                 <div className="col-md-12 ">
-                  <div className="client-section-wrap d-flex flex-row align-items-center">
-    
-
-                  </div>
+                  <div className="client-section-wrap d-flex flex-row align-items-center"></div>
                 </div>
               </div>
             </div>
@@ -35,7 +28,7 @@ function HeroSection() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default HeroSection
+export default HeroSection;

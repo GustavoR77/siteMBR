@@ -793,6 +793,10 @@ select.form-control.has-value {
   background-color: #002058;
 }
 
+.bg-menu-melhorviagem.affix {
+  background-color: #15817F;
+}
+
 .navbar {
   transition: all 0.3s ease-in-out;
 }
@@ -808,6 +812,10 @@ select.form-control.has-value {
   
   .navbar-kubets {
     background-color: #002058;
+  }
+
+  .navbar-melhorviagem {
+    background-color: #15817F;
   }
 
   .white-bg.affix,
@@ -2367,7 +2375,8 @@ select.form-control.has-value {
 
 .background-img-magicclub,
 .background-img-alt,
-.background-img-kubets {
+.background-img-kubets,
+.background-img-melhorviagem {
   position: relative;
   width: auto;
   height: auto;
@@ -2386,9 +2395,14 @@ select.form-control.has-value {
   background-image: url("../../img/games/kubets/background.png") !important;
 }
 
+.background-img-melhorviagem {
+  background-image: url("../../img/games/melhor-viagem/background.png") !important;
+}
+
 .background-img-magicclub:before,
 .background-img-alt:before,
-.background-img-kubets:before {
+.background-img-kubets:before,
+.background-img-melhorviagem:before {
   content: "";
   position: absolute;
   top: 0;
@@ -2410,11 +2424,16 @@ select.form-control.has-value {
   background-image: url("../../img/games/kubets/background.png") !important;
 }
 
+.background-img-melhorviagem::before {
+  background-image: url("../../img/games/melhor-viagem/background.png") !important;
+}
+
 /* next size - tablet */
 @media (min-width: 768px) {
   .background-img-magicclub,
   .background-img-alt,
-  .background-img-kubets {
+  .background-img-kubets,
+  .background-img-melhorviagem {
     position: relative;
     width: auto;
     height: auto;
@@ -2430,10 +2449,14 @@ select.form-control.has-value {
   .background-img-kubets {
     background-image: url("../../img/games/kubets/background.png") !important;
   }
+  .background-img-melhorviagem {
+    background-image: url("../../img/games/melhor-viagem/background.png") !important;
+  }
 
   .background-img-magicclub:before,
   .background-img-alt:before,
-  .background-img-kubets:before {
+  .background-img-kubets:before,
+  .background-img-melhorviagem:before {
     content: "";
     position: absolute;
     top: 0;
@@ -2452,6 +2475,9 @@ select.form-control.has-value {
   }
   .background-img-kubets:before {
     background-image: url("../../img/games/kubets/background.png") !important;
+  }
+  .background-img-melhorviagem:before {
+    background-image: url("../../img/games/melhor-viagem/background.png") !important;
   }
 }
 
