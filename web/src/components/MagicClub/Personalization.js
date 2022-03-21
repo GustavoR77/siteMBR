@@ -22,7 +22,7 @@ function Personalization(props) {
               <div className="col-md-6">
                 <div className="about-content-left section-heading">
                   <h2 className='magic-club-font magic-club-subtitle'>PERSONALIZAÇÃO</h2>
-                  <p className="lead">
+                  <p className="text-white lead project-font lh-sm">
                     Personalizamos a carga horária e a capa do material com o logotipo de sua cidade e nome do projeto educativo quando houver.
                   </p>
                   <p>

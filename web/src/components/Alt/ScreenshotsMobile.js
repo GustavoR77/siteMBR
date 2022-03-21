@@ -24,7 +24,7 @@ function ScreenshotsMobile(props) {
           <div className="screen-carousel owl-carousel owl-theme dot-indicator">
             <div className="screen-carousel-single">
               <img
-                src="img/games/alt/celular.png"
+                src="img/games/alt.png"
                 className="img-fluid"
                 alt="screenshots"
                 width="600"

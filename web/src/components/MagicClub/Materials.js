@@ -15,12 +15,12 @@ function Materials(props) {
           <div className="container magic-club-font">
             <div className="row justify-content-center">
               <div className="col-md-8">
-                <div className="section-heading text-center">
+                <div className="section-heading">
                   <h2 className="magic-club-subtitle magic-club-font">
                     MATERIAIS INTERATIVOS PARA LOUSAS DIGITAIS
                     <br />
                   </h2>
-                  <p className="lead text-dark">
+                  <p className="text-dark lead project-font lh-sm">
                     Programa exclusivo para levar
                     interatividade total à sala de aula. Com áudios gravados por nativos e todos os recursos que garantem uma experiência única aos alunos.
                   </p>

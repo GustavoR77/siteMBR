@@ -14,13 +14,13 @@ function Activity(props) {
           backgroundImage: "url('img/games/alt/background-blue.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center center",
-          backgroundSize: "cover",
+          backgroundSize: "100% 80%",
         }}
       >
         {width > 768 ? (
           <div className="container magic-club-font">
-            <div className="row justify-content-center">
-              <div className="col-md-8">
+            <div className="row justify-content-center mt-5">
+              <div className="col-md-12">
                 <div className="section-heading text-center">
                   <p>
                     <img

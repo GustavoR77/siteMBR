@@ -11,7 +11,7 @@ function ScreenshotsMobile(props) {
             <div className="section-heading text-center">
               <h2
                 className="magic-club-font magic-club-subtitle"
-                style={{ color: "#4A79BC", fontSize: "3rem" }}
+                style={{ color: "#15807F", fontSize: "3rem" }}
               >
                 CAPTURAS DE TELA
                 <br />
@@ -24,7 +24,7 @@ function ScreenshotsMobile(props) {
           <div className="screen-carousel owl-carousel owl-theme dot-indicator">
             <div className="screen-carousel-single">
               <img
-                src="img/games/kubets/screenshot.png"
+                src="img/games/melhor-viagem.png"
                 className="img-fluid"
                 alt="screenshots"
                 width="600"

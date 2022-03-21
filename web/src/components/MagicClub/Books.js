@@ -25,12 +25,12 @@ function Books(props) {
           <div className="container magic-club-font">
             <div className="row justify-content-center">
               <div className="col-md-8">
-                <div className="section-heading text-center">
+                <div className="section-heading">
                   <h2 className="magic-club-font ">
                     LIVROS <strong className="magic-club-font magic-club-subtitle">DIDÁTICOS</strong>
                     <br />
                   </h2>
-                  <p className="lead">
+                  <p className="text-white lead project-font lh-sm">
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less .
 
                     Normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.

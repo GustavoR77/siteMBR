@@ -18,7 +18,7 @@ function Screenshots(props) {
                 <div className="section-heading text-center">
                   <h2
                     className="magic-club-font magic-club-subtitle"
-                    style={{ color: "#22A176" }}
+                    style={{ color: "#22A176", fontSize: "3rem" }}
                   >
                     CAPTURAS DE TELA
                     <br />
@@ -31,7 +31,7 @@ function Screenshots(props) {
               <div className="screen-carousel owl-carousel owl-theme dot-indicator">
                 <div className="screen-carousel-single">
                   <img
-                    src="img/games/alt/celular.png"
+                    src="img/games/alt.png"
                     className="img-fluid"
                     alt="screenshots"
                     width="600"

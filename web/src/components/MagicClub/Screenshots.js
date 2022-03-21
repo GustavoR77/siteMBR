@@ -28,7 +28,7 @@ function Screenshots(props) {
               <div className="screen-carousel owl-carousel owl-theme dot-indicator">
                 <div className="screen-carousel-single">
                   <img
-                    src="img/games/magic-club/screenshot1.png"
+                    src="img/games/magic-club.png"
                     className="img-fluid"
                     alt="screenshots"
                     width="600"

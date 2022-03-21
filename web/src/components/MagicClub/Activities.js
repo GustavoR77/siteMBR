@@ -20,12 +20,12 @@ function Activities(props) {
         <div className="container magic-club-font">
           <div className="row justify-content-center">
             <div className="col-md-8">
-              <div className='section-heading text-center'>
+              <div className='section-heading'>
                 <h2 className="magic-club-font">
                   ATIVIDADES <strong className="magic-club-font magic-club-subtitle">LÚDICAS</strong>
                   <br />
                 </h2>
-                <p className="lead">
+                <p className="text-white lead project-font lh-sm">
                   Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
 
                   Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.3.

@@ -14,7 +14,7 @@ function Footer() {
           backgroundImage: "url('img/games/alt/background-footer.png')",
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
-          backgroundSize: '100% 100%',
+          backgroundSize: 'cover',
         }}
       >
         <footer className="footer-section text-center">
