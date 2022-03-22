@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function HeroSection() {
   return (
@@ -7,9 +7,9 @@ function HeroSection() {
         className="hero-section background-img"
         style={{
           backgroundImage: "url('')",
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center center',
-          backgroundSize: '100% 100%',
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+          backgroundSize: "100% 100%",
         }}
       >
         <div className="video-section-wrap">
@@ -23,7 +23,10 @@ function HeroSection() {
                 <div className="col-md-8 col-lg-7">
                   <div className="hero-content-left text-white text-center mt-5 ptb-100">
                     {/* <h1 className="display-1 text-white">MBR</h1> */}
-                    <p className="lead">Há 25 anos inovando a educação com o melhor da tecnologia para gerar uma experiência de aprendizagem única </p>
+                    <p className="lead">
+                      Há 25 anos inovando a educação com o melhor da tecnologia
+                      para gerar uma experiência de aprendizagem única{" "}
+                    </p>
 
                     <a
                       href="#contact"
@@ -108,14 +111,6 @@ function HeroSection() {
                       </li>
                       <li className="list-inline-item">
                         <img
-                          src="img/parceiros/logo_ferinhas.png"
-                          alt="Ferinhas"
-                          width="50"
-                          className="img-fluid"
-                        />
-                      </li>
-                      <li className="list-inline-item">
-                        <img
                           src="img/parceiros/logo_franco.png"
                           alt="Franco"
                           width="50"
@@ -131,7 +126,7 @@ function HeroSection() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default HeroSection
+export default HeroSection;

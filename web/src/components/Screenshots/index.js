@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import _data from "../../data";
 
 function Screenshots(props) {
-  const background = props
+  const background = props;
   return (
     <>
       <section
@@ -18,7 +18,8 @@ function Screenshots(props) {
                   <br />
                 </h2>
                 <p className="lead">
-                  Desenvolvidos para causar uma experiência de aprendizagem única, lúdica e divertida.{" "}
+                  Desenvolvidos para causar uma experiência de aprendizagem
+                  única, lúdica e divertida.{" "}
                 </p>
               </div>
             </div>
@@ -27,7 +28,7 @@ function Screenshots(props) {
             <div className=""></div>
             <div className="screen-carousel owl-carousel owl-theme dot-indicator">
               <div className="screen-carousel-single">
-                <a className="" href="/alt">
+                <a className="" href="/new/#/alt">
                   <img
                     src="img/games/alt.png"
                     className="img-fluid"
@@ -37,7 +38,7 @@ function Screenshots(props) {
                 </a>
               </div>
               <div className="screen-carousel-single">
-                <a className="" href="/kubets">
+                <a className="" href="/new/#/kubets">
                   <img
                     src="img/games/kubets.png"
                     className="img-fluid"
@@ -47,7 +48,7 @@ function Screenshots(props) {
                 </a>
               </div>
               <div className="screen-carousel-single">
-                <a className="" href="/melhor-viagem">
+                <a className="" href="/new/#/melhor-viagem">
                   <img
                     src="img/games/melhor-viagem.png"
                     className="img-fluid"
@@ -57,7 +58,7 @@ function Screenshots(props) {
                 </a>
               </div>
               <div className="screen-carousel-single product-single">
-                <a className="" href="/magic-club">
+                <a className="" href="/new/#/magic-club">
                   <img
                     src="img/games/magic-club.png"
                     className="img-fluid"

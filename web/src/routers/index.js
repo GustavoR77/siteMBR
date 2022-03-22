@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
 
 // importing all the themes
 import Theme1 from "../themes/theme1";
@@ -33,8 +33,8 @@ import MelhorViagem from "../themes/melhor-viagem";
 
 function Routes() {
   return (
-    <React.Fragment>
-      <Router>
+    <>
+      <HashRouter>
         <Switch>
           <Route exact path="/" component={Theme5} />
           <Route exact path="/magic-club" component={MagicClub} />
@@ -66,8 +66,8 @@ function Routes() {
           <Route exact path="/blogLeft" component={BlogLeft} />
   <Route exact path="/blogRight" component={BlogRight} /> */}
         </Switch> 
-      </Router>
-    </React.Fragment>
+      </HashRouter>
+    </>
   );
 }
 export default Routes;
