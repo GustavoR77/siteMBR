@@ -12,7 +12,7 @@ function GameficationMobile(props) {
                   GAMEFICAÇÃO
                   <br />
                 </h2>
-                <p className="lead">
+                <p className="text-white lead project-font lh-sm">
                   The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
                 </p>
                 <p>

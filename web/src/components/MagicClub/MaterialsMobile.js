@@ -13,7 +13,7 @@ function MaterialsMobile(props) {
                   MATERIAIS INTERATIVOS PARA LOUSAS DIGITAIS
                   <br />
                 </h2>
-                <p className="lead text-dark">
+                <p className="text-dark lead project-font lh-sm">
                   Programa exclusivo para levar
                   interatividade total à sala de aula. Com áudios gravados por nativos e todos os recursos que garantem uma experiência única aos alunos.
                 </p>
