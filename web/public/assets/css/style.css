@@ -2383,8 +2383,8 @@ select.form-control.has-value {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../img/games/magic-club/BG-magic-club-mobile4.png");
-  min-height: 70vh;
+  background-image: url("../../img/games/magic-club/background/mobile.png");
+  min-height: 60vh;
 }
 
 .background-img-alt {
@@ -2409,11 +2409,11 @@ select.form-control.has-value {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("../../img/games/magic-club/BG-magic-club-mobile4.png");
+  background-image: url("../../img/games/magic-club/background/mobile.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center center;
-  min-height: 75vh;
+  min-height: 60vh;
 }
 
 .background-img-alt::before {
@@ -2440,7 +2440,7 @@ select.form-control.has-value {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../img/games/magic-club/BG-magic-club-mobile.png");
+    background-image: url("../../img/games/magic-club/background/web.png");
     min-height: 100vh;
   }
   .background-img-alt {
@@ -2463,7 +2463,7 @@ select.form-control.has-value {
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url("../../img/games/magic-club/BG-magic-club-mobile.png");
+    background-image: url("../../img/games/magic-club/background/web.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
