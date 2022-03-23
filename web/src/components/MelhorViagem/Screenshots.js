@@ -20,7 +20,7 @@ function Screenshots(props) {
                     className="magic-club-font magic-club-subtitle"
                     style={{ color: "#15807F" }}
                   >
-                    CAPTURAS DE TELA
+                    NOSSO APLICATIVO
                     <br />
                   </h2>
                 </div>

@@ -13,7 +13,7 @@ function ScreenshotsMobile(props) {
                 className="magic-club-font magic-club-subtitle"
                 style={{ color: "#4A79BC", fontSize: "3rem" }}
               >
-                CAPTURAS DE TELA
+                NOSSO APLICATIVO
                 <br />
               </h2>
             </div>
