@@ -34,7 +34,7 @@ import MelhorViagem from "../themes/melhor-viagem";
 function Routes() {
   return (
     <>
-      <HashRouter>
+      <Router>
         <Switch>
           <Route exact path="/" component={Theme5} />
           <Route exact path="/magic-club" component={MagicClub} />
@@ -66,7 +66,7 @@ function Routes() {
           <Route exact path="/blogLeft" component={BlogLeft} />
   <Route exact path="/blogRight" component={BlogRight} /> */}
         </Switch> 
-      </HashRouter>
+      </Router>
     </>
   );
 }
