@@ -96,6 +96,38 @@ jQuery(function ($) {
         }
     });
 
+    // 6.1 Screenshots products slider
+    $('.screen-products-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        center: true,
+        dots: false,
+        nav: true,
+        autoplay: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 3
+            },
+
+        }
+    });
+
+    $('.loop-carousel').owlCarousel({
+        center: true,
+        items:2,
+        loop:true,
+        margin:10,
+        dots: false,
+        responsive:{
+            600:{
+                items:2
+            }
+        }
+    });
+
 
     // 7. custom counter js with scrolling
     var isFirstTime = true;

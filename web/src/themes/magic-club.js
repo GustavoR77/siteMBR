@@ -8,7 +8,7 @@ import Projects from "../components/MagicClub/Projects";
 import Activities from "../components/MagicClub/Activities";
 import Materials from "../components/MagicClub/Materials";
 import Gamefication from "../components/MagicClub/Gamefication";
-import Screenshots from "../components/MagicClub/Screenshots";
+import Screenshots from "../components/Screenshots/ScreenshotsProducts";
 import Personalization from "../components/MagicClub/Personalization";
 import Capacitation from "../components/MagicClub/Capacitation";
 import FooterSection from "../components/MagicClub/FooterMagicClub";

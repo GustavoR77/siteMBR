@@ -351,6 +351,83 @@ module.exports = {
     ],
   },
 
+  screenshots: {
+    screenshotsMagicClub: [
+      {
+        image: 'img/games/magic-club/screenshots/1.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/2.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/3.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/4.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/5.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/6.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/7.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/8.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/9.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/10.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/11.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/12.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/13.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/14.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/15.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/16.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/17.png',
+        alt: '',
+      },
+      {
+        image: 'img/games/magic-club/screenshots/18.png',
+        alt: '',
+      },
+    ],
+  },
+
   video: {
     link: 'https://www.youtube.com/watch?v=9No-FiEInLA',
   },
