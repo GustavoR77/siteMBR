@@ -22,16 +22,21 @@ function AboutMagicClubMobile(props) {
                   className="img-fluid"
                 />
               </div>
-              <p className="text-dark lead project-font lh-sm">
-                O MAGIC CLUB é um Sistema de Ensino Bilíngue para alunos dos
-                anos iniciais do Ensino Fundamental, desenvolvido pela MBR
-                Tecnologia Educacional, uma EdTech com 23 anos de atuação no
-                mercado educacional brasileiro e em outros 12 países. Chamamos
-                de sistema de ensino, pois unimos toda a experiência da MBR com
-                o que há de mais moderno e eficiente em metodologias para o
-                aprendizado de idiomas. Isso tudo com o único propósito de
-                capacitar os alunos a falarem inglês fluentemente.{" "}
-              </p>
+              <div className="text-dark lead project-font lh-sm">
+                <p>
+                  O MAGIC CLUB é um Sistema de Ensino Bilíngue para alunos dos
+                  anos iniciais do Ensino Fundamental, desenvolvido pela MBR
+                  Tecnologia Educacional, uma EdTech com 23 anos de atuação no
+                  mercado educacional brasileiro e em outros 12 países.
+                </p>
+                <p>
+                  Chamamos de sistema de ensino, pois unimos toda a experiência
+                  da MBR com o que há de mais moderno e eficiente em
+                  metodologias para o aprendizado de idiomas. Isso tudo com o
+                  único propósito de capacitar os alunos a falarem inglês
+                  fluentemente.{" "}
+                </p>
+              </div>
               <p>
                 <img
                   src="img/games/magic-club/about2.png"

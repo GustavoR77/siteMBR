@@ -13,7 +13,7 @@ function GameficationMobile(props) {
                   <br />
                 </h2>
                 <p className="text-white lead project-font lh-sm">
-                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                Aplicativos para dispositivos móveis com objetivos pedagógicos por meio de jogos divertidos.
                 </p>
                 <p>
                   <img

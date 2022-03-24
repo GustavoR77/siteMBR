@@ -3,8 +3,8 @@ import _data from "../../data";
 import BooksMobile from "./BooksMobile";
 
 function Books(props) {
-  const background = props
-  const [width, setWidth] = useState(window.innerWidth)
+  const background = props;
+  const [width, setWidth] = useState(window.innerWidth);
 
   return (
     <>
@@ -16,25 +16,34 @@ function Books(props) {
         className="screenshots-section ptb-100 "
         style={{
           backgroundImage: "url('img/games/magic-club/background-blue.png')",
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center center',
-          backgroundSize: '100% 100%',
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+          backgroundSize: "100% 100%",
         }}
       >
-        {width > 768 ?
-          <div className="container magic-club-font">
+        {width > 768 ? (
+          <div className="container px-5">
             <div className="row justify-content-center">
-              <div className="col-md-8">
+              <div className="col-md-12">
                 <div className="section-heading">
-                  <h2 className="magic-club-font ">
-                    LIVROS <strong className="magic-club-font magic-club-subtitle">DIDÁTICOS</strong>
+                  <h2 className="magic-club-font" style={{ fontSize: "4rem" }}>
+                    LIVROS{" "}
+                    <strong className="magic-club-font magic-club-subtitle">
+                      DIDÁTICOS
+                    </strong>
                     <br />
                   </h2>
                   <p className="text-white lead project-font lh-sm">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less .
-
-                    Normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.
+                    Com atividades lúdicas, interessantes e atuais sempre
+                    colocando o aluno como protagonista em seu processo de
+                    aprendizagem. Todo nosso conteúdo está em conformidade com a
+                    BNCC e também com a abordagem CLIL, ou seja, aprendizado de
+                    língua e conteúdo integrados.
                   </p>
+                </div>
+              </div>
+              <div className="row justify-content-center">
+                <div className="col-md-12">
                   <p>
                     <img
                       src="img/games/magic-club/books.png"
@@ -45,8 +54,10 @@ function Books(props) {
                 </div>
               </div>
             </div>
-
-          </div> : <BooksMobile />}
+          </div>
+        ) : (
+          <BooksMobile />
+        )}
       </section>
     </>
   );

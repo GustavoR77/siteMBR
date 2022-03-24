@@ -18,9 +18,11 @@ function BooksMobile(props) {
               </h2>
               <div className="text-white lead project-font lh-sm">
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less .
+                  Com atividades lúdicas, interessantes e atuais sempre
+                  colocando o aluno como protagonista em seu processo de
+                  aprendizagem. Todo nosso conteúdo está em conformidade com a
+                  BNCC e também com a abordagem CLIL, ou seja, aprendizado de
+                  língua e conteúdo integrados.
                 </p>
                 <p>
                   <img
@@ -29,11 +31,7 @@ function BooksMobile(props) {
                     className="img-fluid"
                   />
                 </p>
-                <p>
-                  Normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
-                  Many desktop publishing packages and web page editors now.
-                </p>
+          
               </div>
             </div>
           </div>
