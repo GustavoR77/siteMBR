@@ -30,7 +30,7 @@ function Screenshots(props) {
             </div>
           </div>
         </div>
-        <div className="screen-slider-content mt-5">
+        <div className="screen-slider-content mt-5 ">
           <div className="loop-carousel owl-carousel owl-theme dot-indicator">
             {(screenshots || []).map((screenshot, index) => {
               return (

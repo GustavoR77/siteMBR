@@ -119,7 +119,8 @@ jQuery(function ($) {
         center: true,
         items:2,
         loop:true,
-        margin:10,
+        margin:100,
+        
         dots: false,
         responsive:{
             600:{
