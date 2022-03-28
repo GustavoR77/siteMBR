@@ -7,7 +7,7 @@ import Method from "../components/Alt/Method";
 import Technology from "../components/Alt/Technology";
 import Activity from "../components/Alt/Activity";
 import Screenshots from "../components/Alt/Screenshots";
-import FooterSection from "../components/Alt/FooterMagicClub";
+import FooterSection from "../components/Footer";
 
 class Alt extends Component {
   render() {
@@ -22,7 +22,7 @@ class Alt extends Component {
           <Activity background="white-bg" />
           <Screenshots background="white-bg" />
         </div>
-        <FooterSection noSubscription={true} />
+        <FooterSection background="url('img/games/alt/background-footer.png')" mobile="url('img/games/alt/background-footer-mobile.png')" />
       </>
     );
   }

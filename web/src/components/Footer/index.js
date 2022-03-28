@@ -1,26 +1,31 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react";
+import FooterMobile from "./FooterMobile";
 
-function Footer() {
+function Footer(props) {
+  const background = props.background;
+  const border = props.border;
+  const mobile = props.mobile;
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {}, [window.innerWidth]);
 
   return (
     <>
-      <section>
-        <footer className="footer-section text-center">
-          <div
-            className=
-            'footer-top background-img-2 py-5 pt-150 pb-5 '
-
-            style={{
-              backgroundImage:
-                "url('img/logo_mbr_tecnologia_educacional.png')",
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'center top',
-              backgroundSize: 'cover',
-            }}
-          >
+      {width > 768 ? (
+        <section
+          className={"p-4 " + border}
+          style={{
+            backgroundImage: background,
+            backgroundColor: background,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center center",
+            backgroundSize: "100% 100%",
+          }}
+        >
+          <footer className="footer-section text-center">
             <div className="container ">
               <div className="row justify-content-between ">
-                <div className="col-lg-3 mb-3 mb-lg-0 ">
+                <div className="col-lg-4 mb-3 mb-lg-0 ">
                   <div className="footer-nav-wrap text-white">
                     <img
                       src="img/Logo_MBR-white.png"
@@ -28,79 +33,77 @@ function Footer() {
                       width="120"
                       className="img-fluid mb-3"
                     />
+
                     <p>
-                      Há 25 anos inovando a educação com o melhor da
-                      tecnologia para gerar uma experiência de aprendizagem
-                      única.
+                      <h5 className="mb-3 footer-column text-white">
+                        Sobre Nós
+                      </h5>
+                      <div className="social-list-wrap mt-3">
+                        <ul className="social-list list-inline list-unstyled">
+                          <li className="list-inline-item">
+                            <a
+                              href="https://www.instagram.com/mbrtecnologiaeducacional/"
+                              target="_blank"
+                              title="Instagram"
+                            >
+                              <span className="ti-instagram"></span>
+                            </a>
+                          </li>
+                          <li className="list-inline-item">
+                            <a
+                              href="https://www.facebook.com/Mbrtecnologiaeducacional"
+                              target="_blank"
+                              title="Facebook"
+                            >
+                              <span className="ti-facebook"></span>
+                            </a>
+                          </li>
+                          <li className="list-inline-item">
+                            @mbrtecnologiaeducacional
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="social-list-wrap mt-2">
+                        <ul className="social-list list-inline list-unstyled">
+                          <li className="list-inline-item">
+                            <a
+                              href="https://www.instagram.com/mbrplay/"
+                              target="_blank"
+                              title="Instagram"
+                            >
+                              <span className="ti-instagram"></span>
+                            </a>
+                          </li>
+                          <li className="list-inline-item">
+                            <a
+                              href="https://www.facebook.com/Mbrplay"
+                              target="_blank"
+                              title="Facebook"
+                            >
+                              <span className="ti-facebook"></span>
+                            </a>
+                          </li>
+                          <li className="list-inline-item">@mbrplay</li>
+                        </ul>
+                      </div>
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-3 ml-auto mb-4 mb-lg-0">
+                <div className="col-lg-2 ml-auto mb-4 mb-lg-0">
                   <div className="footer-nav-wrap text-white">
-                    <h5 className="mb-3 footer-column text-white">Outros Links</h5>
+                    <h5 className="mb-3 footer-column text-white">Contato</h5>
                     <ul className="list-unstyled">
                       <li className="mb-2">
-                        <a href="/#">Sobre Nós</a>
-                      </li>
-                      <li className="mb-2">
-                        <a href="/#">Contato</a>
-                      </li>
-                    </ul>
-                    <div className="social-list-wrap">
-                      <ul className="social-list list-inline list-unstyled">
-                        <li className="list-inline-item">
-                          <a href="https://www.facebook.com/Mbrtecnologiaeducacional" target="_blank" title="Facebook">
-                            <span className="ti-facebook"></span>
-                          </a>
-                        </li>
-                        <li className="list-inline-item">
-                          <a href="https://www.instagram.com/mbrtecnologiaeducacional/" target="_blank" title="Instagram">
-                            <span className="ti-instagram"></span>
-                          </a>
-                        </li>
-                        <li className="list-inline-item">
-                          <a href="https://www.facebook.com/Mbrplay" target="_blank" title="Facebook">
-                            <span className="ti-facebook"></span>
-                          </a>
-                        </li>
-                        <li className="list-inline-item">
-                          <a href="https://www.instagram.com/mbrplay/" target="_blank" title="Instagram">
-                            <span className="ti-instagram"></span>
-                          </a>
-                        </li>{/*
-                        <li className="list-inline-item">
-                          <a href="/#" target="_blank" title="Twitter">
-                            <span className="ti-twitter"></span>
-                          </a>
-                        </li>
-                        <li className="list-inline-item">
-                          <a href="/#" target="_blank" title="printerst">
-                            <span className="ti-pinterest"></span>
-                          </a>
-                        </li> */}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 ml-auto mb-4 mb-lg-0">
-                  <div className="footer-nav-wrap text-white">
-                    <h5 className="mb-3 footer-column text-white">Suporte</h5>
-                    <ul className="list-unstyled">
-                      <li className="mb-2">
-                        <span className="ti-location-pin mr-2"></span>
-                        Tietê-SP
-                      </li>
-                      <li className="mb-2">
-                        <i className="fas fa-phone-square mr-2 fa-lg"></i>
+                        <i className="fas fa-phone-square mr-2 fa-lg icon-rotate icon-flipped"></i>
                         <a href="tel:+5515996463919">
-                          {' '}
+                          {" "}
                           &nbsp;&nbsp;+55 15 3282-3919
                         </a>
                       </li>
                       <li className="mb-2">
                         <i className="fab fa-whatsapp mr-2 fa-lg"></i>
                         <a href="https://wa.me/5515996463919" target="_blank">
-                          {' '}
+                          {" "}
                           +55 15 99646-3919
                         </a>
                       </li>
@@ -111,10 +114,28 @@ function Footer() {
                     </ul>
                   </div>
                 </div>
+                <div className="col-lg-3 ml-auto mb-4 mb-lg-0">
+                  <div className="footer-nav-wrap text-white">
+                    <h5 className="mb-3 footer-column text-white">
+                      Localização
+                    </h5>
+                    <ul className="list-unstyled">
+                      <li className="mb-2">
+                        <span className="ti-location-pin mr-2"></span>
+                        Rua Professor Francisco de Assis Madeira, nº 234, B.
+                        Zico Pires, Tietê-SP
+                      </li>
+                      <li className="mb-2">
+                        <span className="ti-location-pin mr-2"></span>
+                        Rua ADICIONAR O ENDEREÇO CORRETO, nº 234, B. Alphaville,
+                        São Paulo-SP
+                      </li>
+                    </ul>
+                  </div>
+                </div>
 
                 <div className="col-lg-3">
                   <div className="footer-nav-wrap text-white">
-                    <h5 className="mb-3 footer-column text-white">Localização</h5>
                     <div className="embed-responsive embed-responsive-4by3">
                       <iframe
                         className="embed-responsive-item"
@@ -138,13 +159,13 @@ function Footer() {
               </div>
             </div>
           </div> */}
-          </div>
-
-
-        </footer>
-      </section>
+          </footer>
+        </section>
+      ) : (
+        <FooterMobile mobile={mobile} />
+      )}
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

@@ -7,7 +7,7 @@ import Step1 from "../components/Kubets/Step1";
 import Step2 from "../components/Kubets/Step2";
 import Step3 from "../components/Kubets/Step3";
 import Screenshots from "../components/Kubets/Screenshots";
-import FooterSection from "../components/Kubets/FooterKubets";
+import FooterSection from "../components/Footer";
 
 class Kubets extends Component {
   render() {
@@ -22,7 +22,7 @@ class Kubets extends Component {
           <Step3 background="white-bg" />
           <Screenshots background="white-bg" />
         </div>
-        <FooterSection noSubscription={true} />
+        <FooterSection background="url('img/games/kubets/background-footer.png')" mobile="url('img/games/kubets/background-footer-mobile.png')" />
       </>
     );
   }

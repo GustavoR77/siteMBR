@@ -11,7 +11,7 @@ import Gamefication from "../components/MagicClub/Gamefication";
 import Screenshots from "../components/Screenshots/ScreenshotsProducts";
 import Personalization from "../components/MagicClub/Personalization";
 import Capacitation from "../components/MagicClub/Capacitation";
-import FooterSection from "../components/MagicClub/FooterMagicClub";
+import FooterSection from "../components/Footer";
 
 class MagicClub extends Component {
   render() {
@@ -30,7 +30,7 @@ class MagicClub extends Component {
           <Personalization />
           <Capacitation background="white-bg"/>
         </div>
-        <FooterSection noSubscription={true} />
+        <FooterSection background="url('img/games/magic-club/background-red.png')" />
       </>
     );
   }

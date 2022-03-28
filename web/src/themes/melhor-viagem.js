@@ -7,7 +7,7 @@ import Step1 from "../components/MelhorViagem/Step1";
 import Step2 from "../components/MelhorViagem/Step2";
 import Step3 from "../components/MelhorViagem/Step3";
 import Screenshots from "../components/MelhorViagem/Screenshots";
-import FooterSection from "../components/MelhorViagem/FooterKubets";
+import FooterSection from "../components/Footer";
 
 class MelhorViagem extends Component {
   render() {
@@ -22,7 +22,7 @@ class MelhorViagem extends Component {
           <Step3 background="white-bg" />
           <Screenshots background="white-bg" />
         </div>
-        <FooterSection noSubscription={true} />
+        <FooterSection background="url('img/games/melhor-viagem/background-footer.png')" mobile="url('img/games/melhor-viagem/background-footer-mobile.png')" />
       </>
     );
   }

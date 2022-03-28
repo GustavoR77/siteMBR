@@ -3266,6 +3266,11 @@ blockquote:before {
   opacity: 0.8;
 }
 
+.footer-border-top-navy {
+  border-top: 5px solid;
+  border-top-color: #143A62;
+}
+
 .support-list li span {
   font-size: 20px;
   line-height: 25px;
@@ -3276,6 +3281,13 @@ blockquote:before {
 .social-list li a:hover {
   opacity: 1;
   text-decoration: none;
+}
+
+.icon-flipped {
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
 }
 
 .copyright-text {

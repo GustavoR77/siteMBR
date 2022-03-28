@@ -35,7 +35,7 @@ class Theme extends Component {
           <ContactSection background="" />
           <TrustedCompany background="" />
         </div>
-        <FooterSection noSubscription={true} />
+        <FooterSection background="#09121C" border="footer-border-top-navy" />
       </>
     );
   }
