@@ -758,7 +758,8 @@ select.form-control.has-value {
 .bg-transparent ul li a,
 .bg-menu-magicclub ul li a {
   color: #ffffff;
-  opacity: 0.8;
+  opacity: 1;
+  font-weight: bold;
 }
 
 .bg-transparent ul li a:hover,
@@ -2308,12 +2309,12 @@ select.form-control.has-value {
 .feature-tab li a.nav-link.active,
 .feature-tab li a.nav-link:hover {
   border-color: #ebebeb;
-  background: #6730e3;
+  background: #ffffff;
   color: #ffffff;
 }
 
 .feature-tab li a.nav-link.active {
-  background: #6730e3;
+  background: #ffffff;
   color: #ffffff;
 }
 
@@ -2392,11 +2393,12 @@ select.form-control.has-value {
 }
 
 .background-img-kubets {
-  background-image: url("../../img/games/kubets/background.png") !important;
+  background-image: url("../../img/games/kubets/background-mobile.png") !important;
 }
 
 .background-img-melhorviagem {
-  background-image: url("../../img/games/melhor-viagem/background.png") !important;
+  background-image: url("../../img/games/melhor-viagem/background-mobile.png") !important;
+  background-size: cover !important;
 }
 
 .background-img-magicclub:before,
@@ -2421,11 +2423,12 @@ select.form-control.has-value {
 }
 
 .background-img-kubets::before {
-  background-image: url("../../img/games/kubets/background.png") !important;
+  background-image: url("../../img/games/kubets/background-mobile.png") !important;
 }
 
 .background-img-melhorviagem::before {
-  background-image: url("../../img/games/melhor-viagem/background.png") !important;
+  background-image: url("../../img/games/melhor-viagem/background-mobile.png") !important;
+  background-size: cover !important;
 }
 
 /* next size - tablet */

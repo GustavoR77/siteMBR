@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Header from "../components/MagicClub/HeaderMagicClub";
+import Header from "../components/Header";
 import HeroSection from "../components/MagicClub/HeroSectionMagicClub";
 import AboutSection from "../components/MagicClub/AboutMagicClub";
 import Books from "../components/MagicClub/Books"
