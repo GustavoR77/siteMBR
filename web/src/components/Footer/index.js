@@ -13,7 +13,7 @@ function Footer(props) {
     <>
       {width > 768 ? (
         <section
-          className={"p-4 " + border}
+          className={"p-5 " + border}
           style={{
             backgroundImage: background,
             backgroundColor: background,
@@ -25,7 +25,7 @@ function Footer(props) {
           <footer className="footer-section text-center">
             <div className="container ">
               <div className="row justify-content-between ">
-                <div className="col-lg-4 mb-3 mb-lg-0 ">
+                <div className="col-lg-4 ml-auto mb-3 mb-lg-0 ">
                   <div className="footer-nav-wrap text-white">
                     <img
                       src="img/Logo_MBR-white.png"
