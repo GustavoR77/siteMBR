@@ -13,7 +13,7 @@ function Footer(props) {
     <>
       {width > 768 ? (
         <section
-          className={"p-5 " + border}
+          className={"pr-5 pt-5 pb-4 " + border}
           style={{
             backgroundImage: background,
             backgroundColor: background,
@@ -23,9 +23,9 @@ function Footer(props) {
           }}
         >
           <footer className="footer-section text-center">
-            <div className="container ">
-              <div className="row justify-content-between ">
-                <div className="col-lg-4 ml-auto mb-3 mb-lg-0 ">
+            <div className="container-fluid">
+              <div className="row justify-content-around ">
+                <div className="col-lg-3 ml-auto mb-3 mb-lg-0 ">
                   <div className="footer-nav-wrap text-white">
                     <img
                       src="img/Logo_MBR-white.png"
@@ -89,7 +89,7 @@ function Footer(props) {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-2 ml-auto mb-4 mb-lg-0">
+                <div className="col-lg-2 mb-4 mb-lg-0 mr-auto">
                   <div className="footer-nav-wrap text-white">
                     <h5 className="mb-3 footer-column text-white">Contato</h5>
                     <ul className="list-unstyled">
@@ -114,29 +114,29 @@ function Footer(props) {
                     </ul>
                   </div>
                 </div>
-                <div className="col-lg-3 ml-auto mb-4 mb-lg-0">
+                <div className="col-lg-3 mb-4 mb-lg-0 mr-auto ml-auto">
                   <div className="footer-nav-wrap text-white">
                     <h5 className="mb-3 footer-column text-white">
                       Localização
                     </h5>
                     <ul className="list-unstyled">
-                      <li className="mb-2">
+                      <li className="mb-3">
                         <span className="ti-location-pin mr-2"></span>
-                        Rua Professor Francisco de Assis Madeira, nº 234, B.
-                        Zico Pires, Tietê-SP
+                        <a>Rua Professor Francisco de Assis Madeira, nº 234, B.
+                        Zico Pires, Tietê-SP</a>
                       </li>
                       <li className="mb-2">
                         <span className="ti-location-pin mr-2"></span>
-                        Rua ADICIONAR O ENDEREÇO CORRETO, nº 234, B. Alphaville,
-                        São Paulo-SP
+                        <a>Rua ADICIONAR O ENDEREÇO CORRETO, nº 234, B. Alphaville,
+                        São Paulo-SP</a>
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <div className="col-lg-3">
+                <div className="col-lg-3 mr-3 ">
                   <div className="footer-nav-wrap text-white">
-                    <div className="embed-responsive embed-responsive-4by3">
+                    <div className="embed-responsive embed-responsive-16by9">
                       <iframe
                         className="embed-responsive-item"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.8363953627027!2d-47.71841938498818!3d-23.103084150713098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c612798f987d17%3A0x8af1759a64c5940f!2sMBR%20-%20Tecnologia%20Educacional!5e0!3m2!1sen!2sbr!4v1638791194472!5m2!1sen!2sbr"
